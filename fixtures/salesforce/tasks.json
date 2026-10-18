@@ -1,0 +1,98 @@
+{
+  "totalSize": 4,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "Task",
+        "url": "/services/data/v61.0/sobjects/Task/00TDEMO00000000501"
+      },
+      "Id": "00TDEMO00000000501",
+      "Description": "Prospect says budget is frozen until Q1.",
+      "ActivityDate": "2026-10-08",
+      "AccountId": "001DEMO0000000006",
+      "Account": {
+        "attributes": {
+          "type": "Account"
+        },
+        "Name": "Litware"
+      },
+      "Owner": {
+        "attributes": {
+          "type": "Name"
+        },
+        "Name": "Alex Kim",
+        "Title": "Account Executive"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "url": "/services/data/v61.0/sobjects/Task/00TDEMO00000000601"
+      },
+      "Id": "00TDEMO00000000601",
+      "Description": "Champion says the CFO pushed back on price and asked for a multi-year discount.",
+      "ActivityDate": "2026-10-13",
+      "AccountId": "001DEMO0000000006",
+      "Account": {
+        "attributes": {
+          "type": "Account"
+        },
+        "Name": "Litware"
+      },
+      "Owner": {
+        "attributes": {
+          "type": "Name"
+        },
+        "Name": "Alex Kim",
+        "Title": "Account Executive"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "url": "/services/data/v61.0/sobjects/Task/00TDEMO00000000602"
+      },
+      "Id": "00TDEMO00000000602",
+      "Description": "Renewal on 2026-12-15. Risk: customer has a Ledgerly quote.",
+      "ActivityDate": "2026-10-16",
+      "AccountId": "001DEMO0000000004",
+      "Account": {
+        "attributes": {
+          "type": "Account"
+        },
+        "Name": "Globex Media"
+      },
+      "Owner": {
+        "attributes": {
+          "type": "Name"
+        },
+        "Name": "Riley Shaw",
+        "Title": "Account Manager"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "url": "/services/data/v61.0/sobjects/Task/00TDEMO00000000603"
+      },
+      "Id": "00TDEMO00000000603",
+      "Description": "Our day-to-day owner Dana Reyes has left; no new owner named yet.",
+      "ActivityDate": "2026-10-17",
+      "AccountId": "001DEMO0000000001",
+      "Account": {
+        "attributes": {
+          "type": "Account"
+        },
+        "Name": "Acme Robotics"
+      },
+      "Owner": {
+        "attributes": {
+          "type": "Name"
+        },
+        "Name": "Jordan Blake",
+        "Title": "Account Manager"
+      }
+    }
+  ]
+}

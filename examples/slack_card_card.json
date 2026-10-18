@@ -33,14 +33,14 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*Evidence they were a champion*\n>Ben Ortiz led the rollout to all twelve offices.\n<https://example.com/case-study/globex|Source>"
+        "text": "*Evidence they were a champion*\n>Champion contact role on a won opportunity (closed 2024-03-01); last product use 2026-09-07\n<https://example.my.salesforce.com/lightning/r/Contact/003W014/view|Source>"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*Play*: Champion moved to an existing customer: expansion play\n*Account*: Existing customer (Northwind Foods · northwind.com)"
+        "text": "*Play*: Champion joined a customer\n*Account*: Existing customer (Northwind Foods · northwind.com)"
       }
     },
     {
@@ -48,18 +48,18 @@
       "elements": [
         {
           "type": "mrkdwn",
-          "text": "Same person: Confirmed (work history, headline) · Confirmed champion, recent move, account resolved. · rules v1.0"
+          "text": "Same person: Confirmed (work history, headline) · Confirmed champion, recent move, account resolved. · rules v1.2"
         }
       ]
     },
     {
       "type": "actions",
-      "block_id": "champion:r_a68d2bf6b8b3",
+      "block_id": "champion:003W014",
       "elements": [
         {
           "type": "button",
           "action_id": "accept",
-          "value": "r_a68d2bf6b8b3",
+          "value": "2026-10-18-770aff57:003W014",
           "text": {
             "type": "plain_text",
             "text": "Work this account"
@@ -69,16 +69,16 @@
         {
           "type": "button",
           "action_id": "snooze",
-          "value": "r_a68d2bf6b8b3",
+          "value": "2026-10-18-770aff57:003W014",
           "text": {
             "type": "plain_text",
-            "text": "Snooze 30 days"
+            "text": "Snooze 1 week"
           }
         },
         {
           "type": "button",
           "action_id": "dismiss",
-          "value": "r_a68d2bf6b8b3",
+          "value": "2026-10-18-770aff57:003W014",
           "text": {
             "type": "plain_text",
             "text": "Dismiss"
@@ -87,7 +87,7 @@
         {
           "type": "button",
           "action_id": "wrong_person",
-          "value": "r_a68d2bf6b8b3",
+          "value": "2026-10-18-770aff57:003W014",
           "text": {
             "type": "plain_text",
             "text": "Wrong person"
@@ -97,7 +97,7 @@
         {
           "type": "button",
           "action_id": "wrong_play",
-          "value": "r_a68d2bf6b8b3",
+          "value": "2026-10-18-770aff57:003W014",
           "text": {
             "type": "plain_text",
             "text": "Wrong play"

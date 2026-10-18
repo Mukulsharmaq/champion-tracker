@@ -1,9 +1,24 @@
+[build-system]
+# setuptools 61+ reads [project]; older ones silently build an empty UNKNOWN-0.0.0 wheel.
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "champion-tracker"
-version = "1.0.0"
-description = "Champion-move signal with identity checks, hold queue, seller card and feedback loop"
+name = "gtm-signal-system"
+version = "2.0.0"
+description = "Champion moves, the weekly GTM brief and a ranked pipeline surface in Slack: rules decide, every card carries its evidence, and one click acts or corrects."
 requires-python = ">=3.9"
 dependencies = []
+
+[project.optional-dependencies]
+# Live only. The core (demo, rules, brief, surface, tests) is standard library.
+live = ["slack_bolt>=1.18", "snowflake-connector-python>=3.8.1"]
+
+[project.scripts]
+# Same as `PYTHONPATH=src python3 -m pg_system`. config.json, contracts/ and sql/ are not in the wheel: a checkout
+# finds them next to src/ (as the Dockerfile does); a wheel install needs GTM_HOME set to the folder holding them,
+# or it stops at import (FileNotFoundError: contracts/lexicon.json). See docs/runbook.md.
+gtm-signals = "pg_system.pipeline:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

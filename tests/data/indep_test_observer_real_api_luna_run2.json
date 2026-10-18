@@ -1,0 +1,414 @@
+{
+"model": "openai/gpt-5.6-luna",
+"provider": "openai",
+"base_url": "https://openrouter.ai/api/v1",
+"prompt_version": "1.1",
+"started_utc": "2026-10-18T18:15:35Z",
+"stats": {
+"sent": 80,
+"skipped_not_counted": 20,
+"truncated_by_cap": 0,
+"malformed_batches": 0
+},
+"usage_cost_usd": 0.004479,
+"proposals_raw": [
+{
+"id": "N101",
+"themes": {
+"people_change": "new finance contact, took over from Tom"
+}
+},
+{
+"id": "N104",
+"themes": {}
+},
+{
+"id": "N106",
+"themes": {
+"people_change": "Our new CFO started Monday",
+"competitor": "Ledgerly"
+}
+},
+{
+"id": "N107",
+"themes": {}
+},
+{
+"id": "N108",
+"themes": {
+"pricing_friction": "12% price increase at renewal came as a surprise, he's annoyed",
+"timing": "at renewal"
+}
+},
+{
+"id": "N109",
+"themes": {
+"competitor": "Spendwise",
+"expansion": "I'd rather have it all in one place"
+}
+},
+{
+"id": "N110",
+"themes": {}
+},
+{
+"id": "N111",
+"themes": {}
+},
+{
+"id": "N112",
+"themes": {
+"pricing_friction": "Twenty-five k up front is a lot for us right now"
+}
+},
+{
+"id": "N113",
+"themes": {
+"timing": "get three quotes"
+}
+},
+{
+"id": "N114",
+"themes": {}
+},
+{
+"id": "N115",
+"themes": {
+"timing": "travel budgets get locked in May"
+}
+},
+{
+"id": "N116",
+"themes": {}
+},
+{
+"id": "N117",
+"themes": {}
+},
+{
+"id": "N118",
+"themes": {}
+},
+{
+"id": "N119",
+"themes": {}
+},
+{
+"id": "N121",
+"themes": {}
+},
+{
+"id": "N122",
+"themes": {}
+},
+{
+"id": "N124",
+"themes": {
+"pricing_friction": "want 12mo fees"
+}
+},
+{
+"id": "N125",
+"themes": {}
+},
+{
+"id": "N126",
+"themes": {
+"expansion": "Big expansion potential if we keep the account"
+}
+},
+{
+"id": "N127",
+"themes": {}
+},
+{
+"id": "N128",
+"themes": {}
+},
+{
+"id": "N129",
+"themes": {}
+},
+{
+"id": "N130",
+"themes": {
+"expansion": "with just the London team first? Like 50 people for 60 days?"
+}
+},
+{
+"id": "N131",
+"themes": {}
+},
+{
+"id": "N132",
+"themes": {
+"competitor": "Ledgerly"
+}
+},
+{
+"id": "N134",
+"themes": {}
+},
+{
+"id": "N135",
+"themes": {
+"pricing_friction": "no from me on the auto-renewal clause. I need 90 days notice at least",
+"timing": "90 days notice at least"
+}
+},
+{
+"id": "N136",
+"themes": {
+"timing": "renewal moved up to Feb, procurement wants three quotes"
+}
+},
+{
+"id": "N137",
+"themes": {}
+},
+{
+"id": "N138",
+"themes": {
+"competitor": "Spendwise",
+"pricing_friction": "six months free if we switch. Not gonna lie, that's tempting"
+}
+},
+{
+"id": "N139",
+"themes": {}
+},
+{
+"id": "N140",
+"themes": {}
+},
+{
+"id": "N141",
+"themes": {}
+},
+{
+"id": "N142",
+"themes": {
+"pricing_friction": "pricing push-back is everywhere this quarter, impl fee is the sticking point every time"
+}
+},
+{
+"id": "N143",
+"themes": {}
+},
+{
+"id": "N144",
+"themes": {
+"expansion": "add another 100 seats before the end of the year"
+}
+},
+{
+"id": "N145",
+"themes": {}
+},
+{
+"id": "N146",
+"themes": {}
+},
+{
+"id": "N147",
+"themes": {
+"competitor": "evaluating Ledgerly in parallel"
+}
+},
+{
+"id": "N148",
+"themes": {}
+},
+{
+"id": "N149",
+"themes": {}
+},
+{
+"id": "N151",
+"themes": {}
+},
+{
+"id": "N152",
+"themes": {}
+},
+{
+"id": "N154",
+"themes": {
+"engagement": "saw your post on LinkedIn about the card rewards thing"
+}
+},
+{
+"id": "N155",
+"themes": {}
+},
+{
+"id": "N157",
+"themes": {
+"pricing_friction": "liability clause in section 9, they want it capped at 12 months of fees"
+}
+},
+{
+"id": "N158",
+"themes": {
+"people_change": "New CFO",
+"competitor": "ex-Ledgerly customer"
+}
+},
+{
+"id": "N160",
+"themes": {}
+},
+{
+"id": "N162",
+"themes": {
+"expansion": "add the corporate cards for the sales team too"
+}
+},
+{
+"id": "N163",
+"themes": {
+"competitor": "TripStack",
+"pricing_friction": "They want us to match or come close"
+}
+},
+{
+"id": "N164",
+"themes": {
+"expansion": "moving the whole engineering org onto your cards, that's another 150 cards"
+}
+},
+{
+"id": "N165",
+"themes": {}
+},
+{
+"id": "N166",
+"themes": {
+"people_change": "Sarah's leaving at the end of the month"
+}
+},
+{
+"id": "N167",
+"themes": {}
+},
+{
+"id": "N168",
+"themes": {
+"competitor": "TripStack",
+"pricing_friction": "came in way cheaper, like significantly. I'd need you to get closer to that"
+}
+},
+{
+"id": "N170",
+"themes": {}
+},
+{
+"id": "N171",
+"themes": {
+"pricing_friction": "No 3yr term, 1yr max w/ out clause"
+}
+},
+{
+"id": "N172",
+"themes": {}
+},
+{
+"id": "N174",
+"themes": {}
+},
+{
+"id": "N175",
+"themes": {}
+},
+{
+"id": "N176",
+"themes": {}
+},
+{
+"id": "N177",
+"themes": {}
+},
+{
+"id": "N178",
+"themes": {}
+},
+{
+"id": "N179",
+"themes": {
+"engagement": "I read that benchmark report you guys sent over"
+}
+},
+{
+"id": "N180",
+"themes": {
+"competitor": "Spendwise offer"
+}
+},
+{
+"id": "N181",
+"themes": {
+"expansion": "roll cards out to all of eng, +150"
+}
+},
+{
+"id": "N183",
+"themes": {}
+},
+{
+"id": "N184",
+"themes": {}
+},
+{
+"id": "N185",
+"themes": {}
+},
+{
+"id": "N187",
+"themes": {
+"timing": "decision's gonna be made by the CFO and the head of procurement, probably by the 15th of December"
+}
+},
+{
+"id": "N188",
+"themes": {
+"timing": "wants 90d notice",
+"pricing_friction": "hard no on auto-renew, wants 90d notice"
+}
+},
+{
+"id": "N189",
+"themes": {
+"engagement": "attended duty of care webinar w/ 4 colleagues"
+}
+},
+{
+"id": "N190",
+"themes": {
+"expansion": "London team, 50 users"
+}
+},
+{
+"id": "N193",
+"themes": {}
+},
+{
+"id": "N194",
+"themes": {}
+},
+{
+"id": "N197",
+"themes": {
+"engagement": "LinkedIn post on card rewards got shared by a couple of customer execs"
+}
+},
+{
+"id": "N199",
+"themes": {}
+},
+{
+"id": "N200",
+"themes": {}
+}
+],
+"note": "Real API code path (observer.call_openai via OpenRouter). Anthropic models are blocked by the account's provider settings, so the run used openai/gpt-5.6-luna."
+}

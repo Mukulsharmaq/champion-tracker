@@ -1,0 +1,101 @@
+id,pricing_friction,competitor,competitor_names,competitor_stance,expansion,timing,people_change,engagement,notes
+N001,0,0,,,0,0,0,0,"travel budget cut, not vendor price or purchase window"
+N002,0,0,,,0,0,0,0,buyer requested content; no evidence it was consumed
+N003,0,0,,,0,0,0,0,licensing question for contractors; not a clear ask for more seats
+N004,0,0,,,0,0,0,0,company headcount growth; no ask for more product
+N005,0,0,,,0,0,0,0,
+N006,0,0,,,0,0,0,0,"audit deadline, not a purchase window"
+N007,0,0,,,0,0,0,0,
+N008,0,0,,,0,1,0,0,
+N009,0,0,,,0,0,0,0,
+N010,0,0,,,1,0,0,0,discount question on expansion; not price pushback
+N011,0,0,,,0,0,0,0,'ledger' is not Ledgerly
+N012,0,0,,,0,0,0,0,
+N013,0,0,,,0,0,0,0,
+N014,0,0,,,1,0,0,0,
+N015,0,0,,,0,0,0,0,
+N016,0,0,,,0,0,0,0,
+N017,0,0,,,0,0,0,0,
+N018,0,1,Spendwise,win,0,0,0,0,
+N019,0,0,,,0,0,0,0,
+N020,0,0,,,0,0,0,0,
+N021,0,0,,,0,1,0,0,
+N022,0,0,,,0,0,0,0,
+N023,0,0,,,0,0,0,0,
+N024,0,0,,,0,0,0,0,
+N025,0,0,,,0,0,1,0,
+N026,0,0,,,0,0,0,0,
+N027,0,0,,,0,0,0,0,
+N028,1,1,Ledgerly,risk,0,1,0,0,
+N029,0,0,,,0,0,0,1,
+N030,0,0,,,0,0,0,0,
+N031,0,0,,,0,0,0,0,"third-party conference, not vendor event"
+N032,0,0,,,0,0,1,0,
+N033,0,0,,,0,0,0,0,
+N034,0,0,,,0,1,0,0,
+N035,0,0,,,0,0,1,0,
+N036,0,0,,,0,0,0,0,"internal policy rewrite date, not purchase window"
+N037,1,0,,,0,0,0,0,
+N038,0,0,,,0,0,0,0,
+N039,0,0,,,0,0,0,0,
+N040,0,0,,,0,0,1,0,
+N041,0,0,,,0,0,0,1,
+N042,0,0,,,0,0,0,0,
+N043,0,0,,,0,0,0,0,
+N044,0,0,,,0,0,0,0,
+N045,1,0,,,0,0,0,0,
+N046,0,0,,,0,0,0,0,
+N047,0,0,,,0,0,0,0,
+N048,0,0,,,0,0,0,0,
+N049,0,0,,,0,0,0,0,
+N050,1,0,,,0,0,0,0,pushback on card rebate rate (commercial terms)
+N051,0,0,,,0,0,0,0,
+N052,0,0,,,0,1,0,0,
+N053,0,0,,,0,0,0,0,
+N054,0,0,,,1,0,0,0,
+N055,0,0,,,0,0,0,0,
+N056,0,0,,,0,0,0,0,
+N057,0,0,,,0,0,0,0,budget freeze reported; no theme
+N058,0,0,,,0,0,0,0,Concur not a listed competitor
+N059,0,0,,,0,1,0,0,
+N060,0,0,,,0,0,0,1,
+N061,0,0,,,0,0,0,0,
+N062,0,1,TripStack,mention,0,0,0,0,market intel on TripStack promo; no specific buyer
+N063,1,0,,,0,0,0,0,
+N064,0,0,,,0,1,0,0,
+N065,0,0,,,0,0,0,1,
+N066,0,0,,,0,0,0,0,
+N067,0,0,,,0,0,0,1,
+N068,0,0,,,0,0,0,0,
+N069,0,0,,,0,0,0,0,
+N070,0,0,,,1,0,0,0,
+N071,0,0,,,0,0,0,0,"internal QBR, not a purchase decision window"
+N072,0,0,,,0,0,0,0,
+N073,0,0,,,0,0,0,0,
+N074,0,0,,,0,0,0,0,
+N075,0,0,,,0,0,0,0,"new stakeholder on calls, not a personnel change"
+N076,0,0,,,0,0,0,0,"demo date is a next step, not a decision window"
+N077,0,0,,,0,0,0,0,
+N078,0,0,,,0,0,0,0,rep's own guess
+N079,0,0,,,0,0,0,0,content request; not yet consumed
+N080,1,0,,,0,0,0,0,
+N081,0,0,,,0,0,0,0,
+N082,0,0,,,0,0,0,0,
+N083,0,1,Ledgerly,risk,0,0,0,0,competitor undercut across deals; buyer pushback implied not stated
+N084,0,1,Ledgerly,mention,0,0,1,0,new CFO from Ledgerly shop; stance neutral (rest is rep guess)
+N085,0,0,,,0,0,0,0,
+N086,0,0,,,0,0,0,0,rep's own guess
+N087,0,0,,,0,0,0,0,
+N088,0,0,,,0,0,0,0,
+N089,0,0,,,0,0,0,0,
+N090,0,0,,,0,0,0,0,
+N091,0,0,,,0,0,0,0,
+N092,0,0,,,0,0,0,0,
+N093,0,0,,,0,0,0,0,
+N094,1,0,,,0,0,0,0,
+N095,0,1,Spendwise,win,0,0,0,0,
+N096,0,0,,,0,0,0,0,
+N097,0,0,,,1,0,0,0,
+N098,0,0,,,0,0,1,0,
+N099,0,0,,,0,0,0,0,past hiring already onboarded; no ask for more
+N100,0,0,,,0,0,1,0,

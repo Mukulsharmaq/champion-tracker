@@ -1,0 +1,266 @@
+{
+  "totalSize": 10,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000001"
+      },
+      "Id": "001DEMO0000000001",
+      "Name": "Acme Robotics",
+      "Website": "acme.com",
+      "Type": "Customer",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000002",
+        "Name": "Jordan Blake"
+      },
+      "Renewal_Date__c": "2027-04-30",
+      "Opportunities": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000002"
+      },
+      "Id": "001DEMO0000000002",
+      "Name": "Contoso Systems",
+      "Website": "contoso.com",
+      "Type": "Prospect",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000004",
+        "Name": "Taylor Brooks"
+      },
+      "Renewal_Date__c": null,
+      "Opportunities": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000003"
+      },
+      "Id": "001DEMO0000000003",
+      "Name": "Fabrikam",
+      "Website": "fabrikam.com",
+      "Type": "Prospect",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000004",
+        "Name": "Taylor Brooks"
+      },
+      "Renewal_Date__c": null,
+      "Opportunities": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "Opportunity"
+            },
+            "StageName": "Discovery",
+            "Type": null
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000004"
+      },
+      "Id": "001DEMO0000000004",
+      "Name": "Globex Media",
+      "Website": "globex.com",
+      "Type": "Customer",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000003",
+        "Name": "Riley Shaw"
+      },
+      "Renewal_Date__c": "2026-12-15",
+      "Opportunities": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "Opportunity"
+            },
+            "StageName": "Negotiation",
+            "Type": "Renewal"
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000005"
+      },
+      "Id": "001DEMO0000000005",
+      "Name": "Initech",
+      "Website": "initech.com",
+      "Type": "Customer",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000003",
+        "Name": "Riley Shaw"
+      },
+      "Renewal_Date__c": "2027-02-28",
+      "Opportunities": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000006"
+      },
+      "Id": "001DEMO0000000006",
+      "Name": "Litware",
+      "Website": "litware.com",
+      "Type": "Prospect",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000001",
+        "Name": "Alex Kim"
+      },
+      "Renewal_Date__c": null,
+      "Opportunities": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "Opportunity"
+            },
+            "StageName": "Proposal",
+            "Type": null
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000007"
+      },
+      "Id": "001DEMO0000000007",
+      "Name": "Northwind Foods",
+      "Website": "northwind.com",
+      "Type": "Customer",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000002",
+        "Name": "Jordan Blake"
+      },
+      "Renewal_Date__c": "2027-06-30",
+      "Opportunities": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000008"
+      },
+      "Id": "001DEMO0000000008",
+      "Name": "Tailspin Toys",
+      "Website": "tailspin.com",
+      "Type": "Prospect",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000001",
+        "Name": "Alex Kim"
+      },
+      "Renewal_Date__c": null,
+      "Opportunities": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "Opportunity"
+            },
+            "StageName": "Evaluation",
+            "Type": null
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000009"
+      },
+      "Id": "001DEMO0000000009",
+      "Name": "Umbrella Health",
+      "Website": "umbrella.com",
+      "Type": "Customer",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000002",
+        "Name": "Jordan Blake"
+      },
+      "Renewal_Date__c": "2027-03-31",
+      "Opportunities": null
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v61.0/sobjects/Account/001DEMO0000000010"
+      },
+      "Id": "001DEMO0000000010",
+      "Name": "Woodgrove Bank",
+      "Website": "woodgrove.com",
+      "Type": "Customer",
+      "ParentId": null,
+      "Owner": {
+        "attributes": {
+          "type": "User"
+        },
+        "Id": "005DEMO0000000003",
+        "Name": "Riley Shaw"
+      },
+      "Renewal_Date__c": "2027-01-31",
+      "Opportunities": {
+        "totalSize": 1,
+        "done": true,
+        "records": [
+          {
+            "attributes": {
+              "type": "Opportunity"
+            },
+            "StageName": "Negotiation",
+            "Type": "Expansion"
+          }
+        ]
+      }
+    }
+  ]
+}

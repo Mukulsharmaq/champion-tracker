@@ -332,14 +332,14 @@
       {
        "company": "Raviga",
        "website": "raviga.com",
-       "start": "2023-06-01",
+       "start": "2026-01-05",
        "end": "2026-05-01"
       },
       {
        "company": "Hooli",
        "website": "hooli.com",
        "start": "2018-02-01",
-       "end": "2023-05-01"
+       "end": "2025-12-15"
       }
      ]
     }
@@ -359,6 +359,39 @@
      "employee_count_range": "201 to 500",
      "role_start_date": "2025-01-15",
      "experience": []
+    }
+   ]
+  },
+  {
+   "name": "Owen Marsh",
+   "slug": "initrode",
+   "customer": "Initrode",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Owen Marsh",
+     "current_title": "Head of Procurement",
+     "current_company_name": "Massive Dynamic",
+     "current_company_website": "massivedynamic.com",
+     "headline": "Head of Procurement | ex-Initrode",
+     "employee_count_range": "1001 to 5000",
+     "main_industry": "Software",
+     "updated_at": "2026-10-02",
+     "linkedin_url": "https://www.linkedin.com/in/example-owen",
+     "experience": [
+      {
+       "company": "Massive Dynamic",
+       "website": "massivedynamic.com",
+       "start": "2026-09-14",
+       "end": null
+      },
+      {
+       "company": "Initrode",
+       "website": "initrode.com",
+       "start": "2021-04-01",
+       "end": "2026-08-29"
+      }
+     ]
     }
    ]
   }

@@ -1,0 +1,101 @@
+id,pricing_friction,competitor,competitor_names,competitor_stance,expansion,timing,people_change,engagement,notes
+N101,0,0,,,0,0,1,0,
+N102,0,0,,,0,0,0,0,
+N103,0,0,,,0,0,0,0,
+N104,0,0,,,0,0,0,0,
+N105,0,0,,,0,0,0,0,
+N106,0,1,Ledgerly,mention,0,0,1,0,new CFO came from Ledgerly user; neutral
+N107,0,0,,,0,0,0,0,
+N108,1,0,,,0,0,0,0,
+N109,0,1,Spendwise,mention,1,0,0,0,"wants consolidation; direction implied toward vendor, Spendwise stance unclear"
+N110,0,0,,,0,0,0,0,new office listed; no ask for more product
+N111,0,0,,,0,0,0,0,
+N112,1,0,,,0,0,0,0,
+N113,0,0,,,0,0,0,0,three-quote process; no competitor named
+N114,0,0,,,0,0,0,0,
+N115,0,0,,,0,0,0,0,"travel spend budget lock, unclear it is this purchase's budget"
+N116,0,0,,,0,0,0,0,
+N117,0,0,,,0,0,0,0,
+N118,0,0,,,0,0,0,0,
+N119,0,0,,,0,0,0,0,
+N120,0,0,,,0,0,0,0,rep's own guess
+N121,0,0,,,0,0,0,0,
+N122,0,0,,,0,0,0,0,
+N123,0,0,,,0,0,0,0,
+N124,1,0,,,0,0,0,0,contract terms pushback (liability cap)
+N125,0,0,,,0,0,0,0,
+N126,0,0,,,0,0,0,0,"merger growth; expansion is rep's inference, no buyer ask"
+N127,0,0,,,0,0,0,0,"new stakeholder joining calls, not a personnel change"
+N128,0,0,,,0,0,0,0,
+N129,0,0,,,0,0,0,0,
+N130,0,0,,,0,0,0,0,POC request; not expansion or decision deadline
+N131,0,0,,,0,0,0,0,
+N132,0,1,Ledgerly,risk,0,0,0,0,
+N133,0,0,,,0,0,0,0,
+N134,0,0,,,0,0,0,0,
+N135,1,0,,,0,0,0,0,
+N136,0,0,,,0,1,0,0,
+N137,0,0,,,0,0,0,0,
+N138,0,1,Spendwise,risk,0,0,0,0,competitor offer tempting; no pushback on vendor price stated
+N139,0,0,,,0,0,0,0,
+N140,0,0,,,0,0,0,0,
+N141,0,0,,,0,0,0,0,
+N142,1,0,,,0,0,0,0,rep reports buyer price pushback across deals
+N143,0,0,,,0,0,0,0,
+N144,0,0,,,1,1,0,0,seats needed before year end
+N145,0,0,,,0,0,0,0,Concur not a listed competitor
+N146,0,0,,,0,0,0,0,
+N147,0,1,Ledgerly,risk,0,0,0,0,
+N148,0,0,,,0,0,0,0,
+N149,1,0,,,0,0,0,0,pushback on scope/value of analytics module
+N150,0,0,,,0,0,0,0,
+N151,0,0,,,0,0,0,0,
+N152,0,0,,,0,0,0,0,
+N153,0,0,,,0,0,0,0,
+N154,0,0,,,0,0,0,1,
+N155,0,0,,,0,0,0,0,
+N156,0,0,,,0,0,0,0,rep's own statement
+N157,1,0,,,0,0,0,0,contract terms pushback (liability cap)
+N158,0,1,Ledgerly,mention,0,0,1,0,stance neutral; 'possible threat' is rep guess
+N159,0,0,,,0,0,0,0,"rep's own statement, not a report of the buyer"
+N160,0,0,,,0,0,0,0,
+N161,0,0,,,0,0,0,0,rep's own statement
+N162,0,0,,,1,0,0,0,
+N163,1,1,TripStack,risk,0,0,0,0,
+N164,0,0,,,1,0,0,0,
+N165,0,0,,,0,0,0,0,
+N166,0,0,,,0,0,1,0,
+N167,0,0,,,0,0,0,0,new office; no ask for more product
+N168,1,1,TripStack,risk,0,0,0,0,
+N169,0,0,,,0,0,0,0,
+N170,0,0,,,0,0,0,0,
+N171,1,0,,,0,0,0,0,
+N172,0,0,,,0,0,0,0,merger growth; no ask for more product
+N173,0,0,,,0,0,0,0,rep's own guess
+N174,0,0,,,0,0,0,0,"merger growth; rep inference, no buyer ask"
+N175,0,0,,,0,0,0,0,"audit deadline, not a purchase window"
+N176,0,0,,,0,0,0,0,
+N177,0,0,,,0,0,0,0,'Spend-wise' is not Spendwise
+N178,0,0,,,0,0,0,0,
+N179,0,0,,,0,0,0,1,
+N180,0,1,Spendwise,risk,0,0,0,0,buyer mentioned Spendwise switch offer
+N181,0,0,,,1,0,0,0,
+N182,0,0,,,0,0,0,0,
+N183,0,0,,,0,0,0,0,
+N184,0,0,,,0,0,0,0,
+N185,0,0,,,0,0,0,0,
+N186,0,0,,,0,0,0,0,
+N187,0,0,,,0,1,0,0,
+N188,1,0,,,0,0,0,0,
+N189,0,0,,,0,0,0,1,
+N190,0,0,,,0,0,0,0,POC request; not expansion or decision deadline
+N191,0,0,,,0,0,0,0,
+N192,0,0,,,0,0,0,0,
+N193,0,0,,,0,0,0,0,
+N194,0,0,,,0,0,0,0,
+N195,0,0,,,0,0,0,0,rep's own guess
+N196,0,0,,,0,0,0,0,
+N197,0,0,,,0,0,0,1,
+N198,0,0,,,0,0,0,0,
+N199,0,0,,,0,0,0,0,
+N200,0,0,,,0,0,0,0,

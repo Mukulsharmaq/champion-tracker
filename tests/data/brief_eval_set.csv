@@ -1,0 +1,161 @@
+id,source,side,text,pricing_friction,competitor,competitor_names,competitor_stance,expansion,timing,people_change,engagement,notes
+E001,call,customer,"The cost seems fair for what it does, to be honest.",0,0,,,0,0,0,0,"trap: price mentioned positively, no friction"
+E002,crm,internal,Stated price is not a concern; main blocker is data residency (needs EU hosting).,0,0,,,0,0,0,0,trap: negated pricing
+E003,call,customer,"Budget for new tools opens in January, so realistically that's when we can sign.",0,0,,,0,1,0,0,
+E004,call,customer,Could we add the corporate cards piece later? Our sales team keep asking for their own cards.,0,0,,,1,0,0,0,
+E005,crm,internal,"Call w/ Jenna (VP Fin). CFO said $38k/yr is too high, wants it under 30. Sending revised quote.",1,0,,,0,0,0,0,
+E006,call,customer,"We'll need it to sync with NetSuite, our general ledger lives there.",0,0,,,0,0,0,0,trap: 'general ledger' is not Ledgerly
+E007,call,customer,Honestly $12 per user per month is steep when Spendwise is doing eight.,1,1,Spendwise,risk,0,0,0,0,
+E008,call,customer,Can we get a sandbox before the next call? I want to show it at our budget review on the 9th.,0,0,,,0,1,0,0,concrete budget review date
+E009,call,customer,"Marketing heard about it and now they want seats too, maybe thirty more users.",0,0,,,1,0,0,0,
+E010,call,customer,"Yeah, can you hear me okay? I'm on the train so I might drop out for a sec.",0,0,,,0,0,0,0,
+E011,call,internal,"I'd assume procurement will want a discount, they usually do.",0,0,,,0,0,0,0,speculation
+E012,crm,internal,Renewal date 30/04. Customer asked about notice terms. Flag to AM.,0,0,,,0,1,0,0,
+E013,field,internal,Riverton told me they switched from Spendwise to us because of the approval workflows. Great quote for marketing.,0,1,Spendwise,win,0,0,0,0,
+E014,call,customer,We just opened an office in Singapore so we'll need APAC entities set up as well.,0,0,,,1,0,0,0,
+E015,call,customer,"Spendwise reached out last week, they want to demo for us next Tuesday.",0,1,Spendwise,risk,0,0,0,0,evaluating; demo date is not a decision window
+E016,call,customer,"The new controller, Aisha, joined from a TripStack shop, so she'll probably push for that.",0,1,TripStack,risk,0,0,1,0,buyer (not our rep) flags competitor push
+E017,call,customer,"If this works for the UK team we'd definately want it in Dublin and Amsterdam too, so another 120 or so people.",0,0,,,1,0,0,0,
+E018,crm,internal,"Visited pricing page 4x this week per HubSpot, plus downloaded the ROI calculator.",0,0,,,0,0,0,1,
+E019,call,customer,"We're not really comparing anyone else right now, just want to see if this fits.",0,0,,,0,0,0,0,no competitor named
+E020,call,customer,"I was on your webinar about per diem rules last week, that's actually why I booked this.",0,0,,,0,0,0,1,
+E021,call,internal,"We can do SSO through Okta or Azure AD, whichever you're on.",0,0,,,0,0,0,0,rep statement
+E022,call,customer,"Look, at nine bucks a head that's just too pricey for us, we were thinking more like five.",1,0,,,0,0,0,0,
+E023,field,internal,"Feels like Sterling might want more seats next year, they keep hiring.",0,0,,,0,0,0,0,speculation
+E024,call,customer,"Honestly the per user model kills us, loads of our people submit like one claim a year.",1,0,,,0,0,0,0,
+E025,call,internal,"I imagine once the UK team sees it, the other offices will want in as well.",0,0,,,0,0,0,0,speculation
+E026,call,customer,"We're in a cost-cutting year, so every new licence is getting questioned, yours included.",1,0,,,0,0,0,0,
+E027,field,internal,"Pretty sure Halcyon will churn to Spendwise, just a feeling from the last QBR.",0,0,,,0,0,0,0,speculation
+E028,crm,internal,"Wants to add 3 more entities (DE, FR, NL) after go-live, ~150 users. Upsell opp.",0,0,,,1,0,0,0,
+E029,field,internal,"Lumen just lost their VP Finance (our champion) to a competitor, deal at risk.",0,0,,,0,0,1,0,"'competitor' unnamed, not one of ours"
+E030,call,internal,"Our pricing is per active user, so you only pay for people who actually submit something that month.",0,0,,,0,0,0,0,rep statement
+E031,call,customer,"How does the reciept capture work if someone's offline, like on a long flight?",0,0,,,0,0,0,0,
+E032,call,internal,"As you told me last week, the CFO wants a discount before she signs, so I've brought some options.",1,0,,,0,0,0,0,rep reports buyer
+E033,call,customer,Procurement wants 15% off before they'll even put it in front of the CFO.,1,0,,,0,0,0,0,
+E034,call,customer,"We had a ledger reconciliation nightmare last quarter, took three people a whole week.",0,0,,,0,0,0,0,trap: 'ledger' is not Ledgerly
+E035,crm,internal,Sent deck + case study. She opened it 6 times per DocSend.,0,0,,,0,0,0,1,opened our deck repeatedly
+E036,call,customer,"We'd want the full suite, travel booking plus expenses plus cards, for all four entities.",0,0,,,1,0,0,0,
+E037,call,customer,"Ideally we'd go company-wide eventually, not just finance, all 900 heads.",0,0,,,1,0,0,0,
+E038,crm,internal,Gut feel: they'll expand to US offices next year if UK rollout goes well.,0,0,,,0,0,0,0,speculation
+E039,call,customer,"My controller sent round your LinkedIn post on receipt fraud, it did the rounds in finance.",0,0,,,0,0,0,1,
+E040,call,internal,Let me pull up the approval flow so you can see what a manager sees.,0,0,,,0,0,0,0,rep statement
+E041,call,internal,"Okay so just to recap, you need it signed by the 15th because that's when your budget freezes.",0,0,,,0,1,0,0,rep restates buyer deadline
+E042,crm,internal,RFP due 12 Jan. We're one of 4 vendors. Ledgerly + Spendwise also invited.,0,1,Ledgerly;Spendwise,risk,0,1,0,0,
+E043,crm,internal,"Champion Dana Whitfield left the company Fri. New contact = Raj Patel, Controller. Need to re-intro.",0,0,,,0,0,1,0,
+E044,call,customer,"Our current tool is Spendwise and we're locked in until next September, so nothing really happens before then.",0,1,Spendwise,mention,0,1,0,0,
+E045,call,customer,Does it handle multi-currency? We're adding the Tokyo and Milan teams next quarter so yen and euros matter.,0,0,,,1,0,0,0,"'next quarter' is rollout, not a decision window"
+E046,call,customer,"Sorry, running a couple minutes late, it's been back-to-back all morning.",0,0,,,0,0,0,0,
+E047,field,internal,"Anyone got a construction case study? Prospect asking, teh one on the site is ancient.",0,0,,,0,0,0,0,
+E048,call,customer,"I just took over travel from Mark, he moved into the ops role, so you'll be dealing with me now.",0,0,,,0,0,1,0,
+E049,crm,internal,"Left voicemail, no answer. Will retry Thurs.",0,0,,,0,0,0,0,
+E050,call,customer,How do you stack up against TripStack on features? That's the first thing my boss will ask.,0,1,TripStack,risk,0,0,0,0,comparing; 'stack up' alone would not count
+E051,field,internal,"Reminder the ledger export bug is fixed in 4.2, tell customers who complained.",0,0,,,0,0,0,0,trap: 'ledger' is not Ledgerly
+E052,call,customer,"Can you send the slides after? I'll forward them to our new procurement manager, she started Monday.",0,0,,,0,0,1,0,
+E053,call,customer,"Our Spendwise renewal is in April and frankly we're not happy, the app keeps crashing on people.",0,1,Spendwise,win,0,1,0,0,
+E054,call,customer,Can we do monthly instead of annual? Cash is tight until the funding round closes.,1,0,,,0,0,0,0,cash/budget constraint
+E055,call,customer,"We're on TripStack today, contract is up in March.",0,1,TripStack,mention,0,1,0,0,incumbent named neutrally; concrete contract end
+E056,call,customer,Our renewal with you is in November and honestly finance thinks it's gotten too expensive.,1,0,,,0,1,0,0,
+E057,field,internal,"Bluepeak's controller downloaded the month-end checklist AND opened every nurture email, worth a call.",0,0,,,0,0,0,1,
+E058,call,internal,I'll send over the security docs and a recap by end of day tomorrow.,0,0,,,0,0,0,0,rep statement; rep's own deadline
+E059,call,customer,Does it pull mileage automatically from Google Maps or do people still type it in?,0,0,,,0,0,0,0,
+E060,call,customer,"So how is it priced, is that per user or per company?",0,0,,,0,0,0,0,"trap: plain price question, no friction"
+E061,call,customer,"Spendwise's mobile app is honestly clunky, our people hated it, that's partly why we're here.",0,1,Spendwise,win,0,0,0,0,unhappy with competitor
+E062,crm,internal,"Discovery done. 220 employees, ~80 travel regularly. Excel + email for approvals today.",0,0,,,0,0,0,0,
+E063,crm,internal,Booked demo for next Tues 2pm EST with ops lead + IT.,0,0,,,0,0,0,0,
+E064,crm,internal,Customer wants cards for all 60 field techs + the mileage module. Sending upgrade quote.,0,0,,,1,0,0,0,
+E065,crm,internal,"Budget frozen till Q2 per CFO, said they can revisit when the new FY opens 1 April.",1,0,,,0,1,0,0,budget freeze = budget friction; dated FY start
+E066,field,internal,"Kestrel wants to expand to their Canadian ops, ~70 users, asked us for a quote.",0,0,,,1,0,0,0,
+E067,call,internal,"My guess is your CFO's going to push back on the price, so let's get ahead of that now.",0,0,,,0,0,0,0,speculation
+E068,call,internal,"Last time you said your Ledgerly contract ends in June, is that still the date we're working to?",0,1,Ledgerly,mention,0,1,0,0,rep reports buyer
+E069,call,customer,"Ledgerly is what my last company used, it was fine, nothing special.",0,1,Ledgerly,mention,0,0,0,0,
+E070,call,customer,Is there any flexibility on the licence fee? The number in the proposal is a stretch for us.,1,0,,,0,0,0,0,
+E071,crm,internal,"Signed! 120 seats, 2-yr term. Kickoff call next week.",0,0,,,0,0,0,0,closed-won; no theme
+E072,crm,internal,"Attended our 'Close the books faster' webinar 10/3, asked a q about card limits.",0,0,,,0,0,0,1,
+E073,field,internal,"Elmwood's new CFO wants all 5 regional offices on one platform, could be a big rollout.",0,0,,,1,0,1,0,
+E074,call,customer,"Honestly the price isn't the issue for us, it's getting IT to sign off on SSO.",0,0,,,0,0,0,0,trap: negated pricing
+E075,field,internal,"Heads up team, Acme's CFO told me at dinner they're getting a TripStack quote this week.",0,1,TripStack,risk,0,0,0,0,
+E076,call,customer,Travel used to sit with HR but after the re-org it's all under finance now.,0,0,,,0,0,1,0,
+E077,call,customer,"Our policy says hotels under 180 a night in London, can the tool flag anything over that?",0,0,,,0,0,0,0,
+E078,call,customer,"I signed up for your newsletter a while back, the bit on VAT reclaim was actually useful.",0,0,,,0,0,0,1,
+E079,call,customer,"Our auditors want receipt images kept seven years, and the audit's in February, so this has to be live by then.",0,0,,,0,1,0,0,hard go-live deadline
+E080,call,customer,Can we bolt on the AP module? Chasing supplier invoices over email is killing us.,0,0,,,1,0,0,0,
+E081,call,customer,"I downloaded the T&E policy template from your site, we've basically adopted it as is.",0,0,,,0,0,0,1,
+E082,crm,internal,"Spend wise, they're at ~$2M/yr on T&E across 3 entities.",0,0,,,0,0,0,0,"trap: 'Spend wise' shorthand, not Spendwise"
+E083,field,internal,Coffee machine on 3 is broken again lol,0,0,,,0,0,0,0,
+E084,call,customer,"We're expanding into three more regions next year so users roughly double, what does that do to price?",0,0,,,1,0,0,0,"price question, no friction; 'next year' vague"
+E085,crm,internal,Asked whether we offer per-head pricing for contractors. Sent pricing sheet.,0,0,,,0,0,0,0,trap: plain price question
+E086,field,internal,"Delta Ridge says 'too pricey for what we'd use', they only need expenses not travel.",1,0,,,0,0,0,0,
+E087,call,customer,"We've had a Ledgerly demo too, and they're coming back with pricing on Thursday.",0,1,Ledgerly,risk,0,0,0,0,"Thursday is their pricing date, not a decision window"
+E088,call,internal,"You said Sarah's taken over from Ben on the travel side, should we loop her in?",0,0,,,0,0,1,0,rep reports buyer
+E089,call,customer,"I had a look at your pricing page before this, so I kind of know the ballpark.",0,0,,,0,0,0,1,pricing page visit = engagement; no price friction
+E090,call,internal,"Annual plans come with ten percent off versus monthly, just so you know.",0,0,,,0,0,0,0,trap: rep's neutral price talk
+E091,crm,internal,"Prob worried about Ledgerly, they've been aggressive in fintech lately.",0,0,,,0,0,0,0,speculation
+E092,call,customer,"I read your blog on German per diem rates, does the tool actually apply those automatically?",0,0,,,0,0,0,1,read our blog = engagement
+E093,call,internal,"Unlike TripStack, we don't charge extra for the mobile app.",0,0,,,0,0,0,0,trap: rep statement naming competitor
+E094,call,customer,"We need SOC 2 and the whole security pack before legal looks at it, and our new CISO starts next week.",0,0,,,0,0,1,0,
+E095,crm,internal,Customer said they ditched TripStack because the integrations kept breaking. Very open to us.,0,1,TripStack,win,0,0,0,0,
+E096,crm,internal,"Says the seat price is ""a lot"" for a 40-person company, asked about a starter tier.",1,0,,,0,0,0,0,
+E097,field,internal,"Saw Brightline's ops director at the TripStack user conference, not sure what that means yet.",0,1,TripStack,mention,0,0,0,0,rep reports observed fact; neutral
+E098,call,customer,Our board wants the Spendwise proposal and yours side by side before anything gets signed.,0,1,Spendwise,risk,0,0,0,0,
+E099,call,customer,"I want this live before our sales kickoff in February, that's the hard deadline.",0,0,,,0,1,0,0,
+E100,crm,internal,"Think they'll push on price at the next stage, prep a discount ladder.",0,0,,,0,0,0,0,speculation
+E101,call,customer,"Quick heads up, our CFO is leaving at the end of the month, so the new one will have to sign off.",0,0,,,0,0,1,0,"date is a departure, not a decision window"
+E102,call,customer,"We left Ledgerly last spring, approvals were a mess and support never answered.",0,1,Ledgerly,win,0,0,0,0,
+E103,call,internal,"I suspect you're probably looking at Spendwise too, most people in your space are.",0,0,,,0,0,0,0,speculation; competitor guess
+E104,field,internal,"Met the Vantage team at our London breakfast, their AP lead asked loads about the cards product.",0,0,,,0,0,0,1,our event; prospect interest is not expansion
+E105,call,customer,"Saw you guys at the CFO summit in Austin, I stopped by your booth actually.",0,0,,,0,0,0,1,visited our booth
+E106,crm,internal,Procurement (Mike) wants 15% off list + net-60 terms or it doesn't move.,1,0,,,0,0,0,0,
+E107,call,customer,"I've been promoted to Finance Director, so this whole area is mine from now on.",0,0,,,0,0,1,0,
+E108,call,customer,Is the mobile app on Android as well? Half our sales team are on Samsung.,0,0,,,0,0,0,0,
+E109,call,customer,Our VP Finance commented on one of your founder's posts and asked me to set this up.,0,0,,,0,0,0,1,
+E110,call,customer,"Spend-wise we're roughly flat on travel versus last year, maybe up a touch.",0,0,,,0,0,0,0,"trap: 'spend-wise' adverb, not Spendwise"
+E111,call,customer,"We're comparing you with Ledgerly and TripStack, the final shortlist goes to the board on the 14th.",0,1,Ledgerly;TripStack,risk,0,1,0,0,
+E112,call,customer,"Right now our engineers hand in a trip stack of crumpled receipts every Friday, it's chaos.",0,0,,,0,0,0,0,"trap: generic 'trip stack', not TripStack"
+E113,call,internal,"We integrate with Ledgerly's export, so migrating your history is pretty painless.",0,0,,,0,0,0,0,trap: rep statement naming competitor
+E114,call,customer,New CFO started in September and she's asked us to cut software spend by a quarter.,1,0,,,0,0,1,0,
+E115,crm,internal,Liked + commented on our LinkedIn post re: duty of care for travellers.,0,0,,,0,0,0,1,
+E116,call,customer,"We ripped out TripStack back in January, reporting was useless and nobody used it.",0,1,TripStack,win,0,0,0,0,
+E117,field,internal,Quick one: Talon's CEO replied to our newsletter asking if we do travel booking too.,0,0,,,0,0,0,1,
+E118,call,customer,"The board approved the budget last week, and we have to have a vendor signed by 31 March.",0,0,,,0,1,0,0,
+E119,crm,internal,New CFO (ex-Deloitte) started this month and is reviewing every vendor contract over $10k.,0,0,,,0,0,1,0,contract review is not price pushback
+E120,crm,internal,Expense mgmt moving from HR to Finance Ops under new COO. Our contact is now Lena.,0,0,,,0,0,1,0,
+E121,call,customer,"We try to spend wisely on travel, people fly economy unless it's over six hours.",0,0,,,0,0,0,0,"trap: 'spend wisely', not Spendwise"
+E122,field,internal,"Just met Northwind at the Gartner event, their new head of travel started 2 weeks ago, super keen.",0,0,,,0,0,1,0,"third-party event, not our content"
+E123,call,customer,"Not gonna lie, we're cutting headcount, so we'd actually be going down to about 200 seats.",0,0,,,0,0,0,0,"trap: shrinking, not expansion; no price pushback"
+E124,call,internal,"You mentioned last call you're trialling TripStack in parallel, how's that going?",0,1,TripStack,risk,0,0,0,0,rep reports buyer
+E125,call,customer,"We'd add the Paris office too, but only if you can sharpen the per seat price abit.",1,0,,,1,0,0,0,
+E126,call,customer,We're trialling TripStack right now and we'll decide after the pilot ends on the 30th.,0,1,TripStack,risk,0,1,0,0,
+E127,call,customer,"After your webinar I showed the recording around, and now ops wants it for their 60 people too.",0,0,,,1,0,0,1,
+E128,call,customer,"How long does a typical rollout take for a company our size, roughly 400 people?",0,0,,,0,0,0,0,"headcount, not expansion"
+E129,call,customer,That's out of budget for this year unless you can do something on the seat price.,1,0,,,0,0,0,0,'this year' is not a concrete window
+E130,field,internal,"FYI Orbis said straight up our price is double what they pay Ledgerly, need help on this one.",1,1,Ledgerly,risk,0,0,0,0,cheaper incumbent
+E131,call,customer,"Procurement insists on three quotes so Ledgerly's in the mix, and they need everything by Friday the 20th.",0,1,Ledgerly,risk,0,1,0,0,
+E132,call,customer,"Our CFO balked when she saw the annual number, $40k is way over what we'd planned.",1,0,,,0,0,0,0,
+E133,call,customer,"Cool, and is the data hosted in the EU or the US?",0,0,,,0,0,0,0,
+E134,call,customer,"The RFP goes out next month, I'll make sure you're on the distribution list.",0,0,,,0,1,0,0,
+E135,field,internal,"Gonna guess Mercer is waiting on budget, haven't heard back in 3 weeks.",0,0,,,0,0,0,0,speculation
+E136,field,internal,"Corvid's RFP lands 1 Dec per their procurement lead, Ledgerly is the incumbent.",0,1,Ledgerly,mention,0,1,0,0,
+E137,crm,internal,Downsizing from 300 to 240 seats at renewal due to layoffs.,0,0,,,0,0,0,0,"trap: shrinking, not expansion"
+E138,call,customer,"Our current contract auto-renews on 1 June, so we'd have to give notice by April.",0,0,,,0,1,0,0,
+E139,call,customer,"Budget's honestly fine, we've already got it approved, I just need the security questionnaire done.",0,0,,,0,0,0,0,trap: negated pricing; no dated window
+E140,call,customer,Is there an implementation fee or is onboarding included in that?,0,0,,,0,0,0,0,trap: plain price question
+E141,call,internal,"Following up on what you said about adding the Lisbon team, I've priced in 45 extra seats.",0,0,,,1,0,0,0,rep reports buyer ask
+E142,call,customer,"What does the reporting look like, can I slice spend by cost centre?",0,0,,,0,0,0,0,trap: 'cost centre' is not price friction
+E143,call,customer,We hired a new head of procurement last week and she wants to review all our vendors.,0,0,,,0,0,1,0,
+E144,call,customer,Who on your side would we work with day to day? We'd start in London then add Leeds and Glasgow.,0,0,,,1,0,0,0,
+E145,call,internal,"Thanks for coming along to our roundtable on Thursday, good to finally meet in person.",0,0,,,0,0,0,1,rep reports buyer attended our event
+E146,crm,internal,Prospect confirmed they're in a 2-week trial of Spendwise. Decision expected end of Nov.,0,1,Spendwise,risk,0,1,0,0,
+E147,call,customer,"Sorry, the dog's barking, give me two seconds.",0,0,,,0,0,0,0,
+E148,call,customer,Can approvers do it from their phone? Our VPs are basically never at a desk.,0,0,,,0,0,0,0,
+E149,call,customer,"We need a decision by end of quarter, the CFO wants it in the budget before December.",0,0,,,0,1,0,0,
+E150,crm,internal,"Mentioned they used Spendwise years ago at a prior company, no strong feelings.",0,1,Spendwise,mention,0,0,0,0,
+E151,call,customer,"Our tech stack is pretty basic, Xero, Slack and Google Workspace, that's about it.",0,0,,,0,0,0,0,trap: generic 'stack'
+E152,field,internal,"Talked to Pinecrest procurement, their budget cycle closes Oct 31 so we need paper in before then.",0,0,,,0,1,0,0,
+E153,call,internal,"Most customers your size go live in about six weeks, give or take.",0,0,,,0,0,0,0,rep statement
+E154,call,customer,"I mean we might look at this again sometime, no rush on our side.",0,0,,,0,0,0,0,trap: vague timing
+E155,crm,internal,"Customer unhappy w/ Ledgerly support, contract ends Dec 31, wants our proposal by mid-Nov.",0,1,Ledgerly,win,0,1,0,0,
+E156,call,customer,Do you support Amex corporate cards or only your own cards?,0,0,,,0,0,0,0,
+E157,call,customer,"Uh, let me share my screen, one sec... can you see the spreadsheet?",0,0,,,0,0,0,0,
+E158,call,internal,Sounds like budget season might be coming up for you soon?,0,0,,,0,0,0,0,speculation; rep guess
+E159,call,customer,"Spendwise quoted us about 30% less for basically the same thing, so you'd have to come down.",1,1,Spendwise,risk,0,0,0,0,
+E160,call,customer,"I'm leaving in two weeks, so Tom from FP&A will be your contact going forward.",0,0,,,0,0,1,0,

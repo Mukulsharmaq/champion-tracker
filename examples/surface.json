@@ -1,0 +1,951 @@
+[
+  {
+    "id": "acct_001DEMO0000000004",
+    "account": "Globex Media",
+    "domain": "globex.com",
+    "type": "customer",
+    "part_of": "",
+    "owner": "Riley Shaw",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000004",
+    "renewal_days": 58,
+    "priority": 85,
+    "tier": "High",
+    "rank_reason": "competitor risk 30 · pricing friction near renewal 30 · champion left 25",
+    "context": "Customer · owner Riley Shaw · renews 2026-12-15 (in 58 days) · open opportunity: Renewal",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P4",
+    "play_name": "Renewal save",
+    "play_do": "Before the renewal date, the account owner and their manager meet the customer's decision maker: go through usage and results first, then hear the pricing or competitor concern. No discount is offered before that meeting.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Renewal in 58 days (2026-12-15) · Competitor + Pricing: \"Ledgerly quoted us 30 percent less for expense alone, so we need…",
+    "why_now": [
+      "Renewal in 58 days (2026-12-15).",
+      "Competitor + Pricing: \"Ledgerly quoted us 30 percent less for expense alone, so we need a sharper renewal number.\" (Hannah Cole, VP Finance)",
+      "Competitor: \"Renewal on 2026-12-15. Risk: customer has a Ledgerly quote.\" (Riley Shaw, Account Manager) (reported by our team)",
+      "Champion left: Ben Ortiz (Facilities Director) moved to Northwind Foods 28 days ago."
+    ],
+    "who": {
+      "name": "Hannah Cole",
+      "title": "VP Finance",
+      "why": "Said it on the latest call",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "Call 03:28, Hannah Cole, 2026-10-13",
+        "url": "https://gong.example.com/call?id=1101"
+      },
+      {
+        "label": "CRM note, Riley Shaw, 2026-10-16",
+        "url": "https://example.my.salesforce.com/lightning/r/Task/00TDEMO00000000602/view"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 1,
+      "competitor_risk": 2,
+      "pricing": 1,
+      "expansion": 0,
+      "timing": 0,
+      "near_renewal": true,
+      "open_deal": true
+    },
+    "built_from": {
+      "account": {
+        "account": "Globex Media",
+        "domain": "globex.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "customer",
+        "owner": "Riley Shaw",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000003",
+        "parent_id": "",
+        "renewal_date": "2026-12-15",
+        "open_opportunity": "Renewal",
+        "crm_id": "001DEMO0000000004"
+      },
+      "parent": null,
+      "row_ids": [
+        "003W014"
+      ],
+      "finding_ids": [
+        "GC-1101-2",
+        "CRM-00TDEMO00000000602"
+      ]
+    },
+    "signals": {
+      "competitor": 2,
+      "pricing_friction": 1,
+      "expansion": 0,
+      "timing": 0
+    },
+    "rank": 1,
+    "owner_id": "005DEMO0000000003",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000004"
+  },
+  {
+    "id": "acct_001DEMO0000000007",
+    "account": "Northwind Foods",
+    "domain": "northwind.com",
+    "type": "customer",
+    "part_of": "",
+    "owner": "Jordan Blake",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000007",
+    "renewal_days": 255,
+    "priority": 60,
+    "tier": "High",
+    "rank_reason": "champion joined 40 · expansion request 20",
+    "context": "Customer · owner Jordan Blake · renews 2027-06-30 (in 255 days) · 5001 to 10000 staff (people data)",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": 5001,
+      "country": "",
+      "source": "people data"
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P2",
+    "play_name": "Champion joined a customer",
+    "play_do": "This week the account owner calls the champion, finds out which team or region they now run and whether that team uses us yet, and agrees the next step with them before contacting anyone else on that team.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Champion joined: Ben Ortiz (was Facilities Director at Globex Media) is now Director of… · Expansion + People change: \"Ben joined us from Globex and wants the same setup for…",
+    "why_now": [
+      "Champion joined: Ben Ortiz (was Facilities Director at Globex Media) is now Director of Facilities @ Northwind Foods, joined 28 days ago. Seen here this week (Call 08:53, Ivy Chen, 2026-10-14).",
+      "Expansion + People change: \"Ben joined us from Globex and wants the same setup for facilities travel.\" (Ivy Chen, Travel Manager)"
+    ],
+    "who": {
+      "name": "Ben Ortiz",
+      "title": "Director of Facilities @ Northwind Foods",
+      "why": "Former champion, now here",
+      "linkedin": "",
+      "row_id": "003W014"
+    },
+    "links": [
+      {
+        "label": "Ben Ortiz: champion evidence",
+        "url": "https://example.my.salesforce.com/lightning/r/Contact/003W014/view"
+      },
+      {
+        "label": "Call 08:53, Ivy Chen, 2026-10-14",
+        "url": "https://gong.example.com/call?id=1110"
+      }
+    ],
+    "inputs": {
+      "champion_in": 1,
+      "champion_out": 0,
+      "competitor_risk": 0,
+      "pricing": 0,
+      "expansion": 1,
+      "timing": 0,
+      "near_renewal": false,
+      "open_deal": false
+    },
+    "built_from": {
+      "account": {
+        "account": "Northwind Foods",
+        "domain": "northwind.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "customer",
+        "owner": "Jordan Blake",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000002",
+        "parent_id": "",
+        "renewal_date": "2027-06-30",
+        "open_opportunity": "",
+        "crm_id": "001DEMO0000000007"
+      },
+      "parent": null,
+      "row_ids": [
+        "003W014"
+      ],
+      "finding_ids": [
+        "GC-1110-2"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 0,
+      "expansion": 1,
+      "timing": 0
+    },
+    "rank": 2,
+    "owner_id": "005DEMO0000000002",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000007"
+  },
+  {
+    "id": "acct_001DEMO0000000002",
+    "account": "Contoso Systems",
+    "domain": "contoso.com",
+    "type": "prospect",
+    "part_of": "",
+    "owner": "Taylor Brooks",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000002",
+    "renewal_days": null,
+    "priority": 40,
+    "tier": "Medium",
+    "rank_reason": "champion joined 40",
+    "context": "Prospect · owner Taylor Brooks · Software · 1001 to 5000 staff (people data)",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "Software",
+      "employees": 1001,
+      "country": "",
+      "source": "people data"
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P1",
+    "play_name": "Champion joined a prospect",
+    "play_do": "This week the account owner sends the champion a short personal note: congratulate them on the new role, name the project they ran with us at their old company, and ask for 20 minutes to hear how their new team works today.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Champion joined: Dana Reyes (was Head of Travel at Acme Robotics) is now Director,…",
+    "why_now": [
+      "Champion joined: Dana Reyes (was Head of Travel at Acme Robotics) is now Director, Global Travel @ Contoso Systems, joined 47 days ago. Seen here this week (Field note, Sam Ito, 2026-10-17).",
+      "Engagement: \"Dana Reyes (ex-Acme) liked our post on policy controls.\" (Sam Ito, SDR) (reported by our team)"
+    ],
+    "who": {
+      "name": "Dana Reyes",
+      "title": "Director, Global Travel @ Contoso Systems",
+      "why": "Former champion, now here",
+      "linkedin": "https://www.linkedin.com/in/example-dana",
+      "row_id": "003W001"
+    },
+    "links": [
+      {
+        "label": "Dana Reyes: champion evidence",
+        "url": "https://example.my.salesforce.com/lightning/r/Contact/003W001/view"
+      },
+      {
+        "label": "Field note, Sam Ito, 2026-10-17",
+        "url": "https://example.slack.com/archives/C0FIELDNOTES/p1792249201000000"
+      }
+    ],
+    "inputs": {
+      "champion_in": 1,
+      "champion_out": 0,
+      "competitor_risk": 0,
+      "pricing": 0,
+      "expansion": 0,
+      "timing": 0,
+      "near_renewal": false,
+      "open_deal": false
+    },
+    "built_from": {
+      "account": {
+        "account": "Contoso Systems",
+        "domain": "contoso.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "prospect",
+        "owner": "Taylor Brooks",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000004",
+        "parent_id": "",
+        "renewal_date": "",
+        "open_opportunity": "",
+        "crm_id": "001DEMO0000000002"
+      },
+      "parent": null,
+      "row_ids": [
+        "003W001"
+      ],
+      "finding_ids": [
+        "FN-1792249201.000000"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 0,
+      "expansion": 0,
+      "timing": 0
+    },
+    "rank": 3,
+    "owner_id": "005DEMO0000000004",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000002"
+  },
+  {
+    "id": "acct_001DEMO0000000005",
+    "account": "Initech",
+    "domain": "initech.com",
+    "type": "customer",
+    "part_of": "",
+    "owner": "Riley Shaw",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000005",
+    "renewal_days": 133,
+    "priority": 40,
+    "tier": "Medium",
+    "rank_reason": "competitor risk 30 · timing window 10",
+    "context": "Customer · owner Riley Shaw · renews 2027-02-28 (in 133 days)",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P5",
+    "play_name": "Competitor at a customer",
+    "play_do": "This week the account owner asks the champion which team is testing the competitor and for what; within two weeks, fix that gap or book a working session with that team.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Competitor: \"Our team started a trial of Ledgerly for expense reports last week.\" (Raj…",
+    "why_now": [
+      "Competitor: \"Our team started a trial of Ledgerly for expense reports last week.\" (Raj Mehta, Finance Director)",
+      "Timing: \"I'd rather fix the expense workflow with you than switch, but I need a plan by November.\" (Priya Nair, Director of Business Services)"
+    ],
+    "who": {
+      "name": "Priya Nair",
+      "title": "Director of Business Services",
+      "why": "Champion still at the account",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "Call 25:02, Priya Nair, 2026-10-15",
+        "url": "https://gong.example.com/call?id=1104"
+      },
+      {
+        "label": "Call 01:37, Raj Mehta, 2026-10-14",
+        "url": "https://gong.example.com/call?id=1103"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 0,
+      "competitor_risk": 1,
+      "pricing": 0,
+      "expansion": 0,
+      "timing": 1,
+      "near_renewal": false,
+      "open_deal": false
+    },
+    "built_from": {
+      "account": {
+        "account": "Initech",
+        "domain": "initech.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "customer",
+        "owner": "Riley Shaw",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000003",
+        "parent_id": "",
+        "renewal_date": "2027-02-28",
+        "open_opportunity": "",
+        "crm_id": "001DEMO0000000005"
+      },
+      "parent": null,
+      "row_ids": [],
+      "finding_ids": [
+        "GC-1104-2",
+        "GC-1103-2"
+      ]
+    },
+    "signals": {
+      "competitor": 1,
+      "pricing_friction": 0,
+      "expansion": 0,
+      "timing": 1
+    },
+    "rank": 4,
+    "owner_id": "005DEMO0000000003",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000005"
+  },
+  {
+    "id": "acct_001DEMO0000000003",
+    "account": "Fabrikam",
+    "domain": "fabrikam.com",
+    "type": "prospect",
+    "part_of": "",
+    "owner": "Taylor Brooks",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000003",
+    "renewal_days": null,
+    "priority": 30,
+    "tier": "Medium",
+    "rank_reason": "champion joined (needs a check) 20 · timing window 10",
+    "context": "Prospect · owner Taylor Brooks · open opportunity: Discovery · 501 to 1000 staff (people data)",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": 501,
+      "country": "",
+      "source": "people data"
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P11",
+    "play_name": "Champion inside an open deal: brief the deal owner",
+    "play_do": "Today, tell the deal owner the champion has joined and what they ran with us before. The deal owner decides whether and when to bring them into the deal; nobody else contacts them first.",
+    "status": "Check first",
+    "checks": [
+      "Leo Park: move is 159 days old (over 90). Note: seen at Fabrikam this week (Call 04:24, Leo Park, 2026-10-17)."
+    ],
+    "headline": "Champion joined: Leo Park (was Director of Spend Management at Northwind Foods) is now… · Open opportunity in the CRM: Discovery",
+    "why_now": [
+      "Champion joined: Leo Park (was Director of Spend Management at Northwind Foods) is now VP Procurement @ Fabrikam, joined 159 days ago. Seen here this week (Call 04:24, Leo Park, 2026-10-17).",
+      "Open opportunity in the CRM: Discovery.",
+      "Timing: \"Our current provider's contract ends in March, and we're collecting proposals in January.\" (Leo Park, VP Procurement)"
+    ],
+    "who": {
+      "name": "Leo Park",
+      "title": "VP Procurement @ Fabrikam",
+      "why": "Former champion, now here",
+      "linkedin": "",
+      "row_id": "003W002"
+    },
+    "links": [
+      {
+        "label": "Leo Park: champion evidence",
+        "url": "https://example.my.salesforce.com/lightning/r/Contact/003W002/view"
+      },
+      {
+        "label": "Call 04:24, Leo Park, 2026-10-17",
+        "url": "https://gong.example.com/call?id=1109"
+      }
+    ],
+    "inputs": {
+      "champion_in": 1,
+      "champion_out": 0,
+      "competitor_risk": 0,
+      "pricing": 0,
+      "expansion": 0,
+      "timing": 1,
+      "near_renewal": false,
+      "open_deal": true
+    },
+    "built_from": {
+      "account": {
+        "account": "Fabrikam",
+        "domain": "fabrikam.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "prospect",
+        "owner": "Taylor Brooks",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000004",
+        "parent_id": "",
+        "renewal_date": "",
+        "open_opportunity": "Discovery",
+        "crm_id": "001DEMO0000000003"
+      },
+      "parent": null,
+      "row_ids": [
+        "003W002"
+      ],
+      "finding_ids": [
+        "GC-1109-2"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 0,
+      "expansion": 0,
+      "timing": 1
+    },
+    "rank": 5,
+    "owner_id": "005DEMO0000000004",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000003"
+  },
+  {
+    "id": "acct_001DEMO0000000010",
+    "account": "Woodgrove Bank",
+    "domain": "woodgrove.com",
+    "type": "customer",
+    "part_of": "",
+    "owner": "Riley Shaw",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000010",
+    "renewal_days": 105,
+    "priority": 30,
+    "tier": "Medium",
+    "rank_reason": "expansion request 20 · timing window 10",
+    "context": "Customer · owner Riley Shaw · renews 2027-01-31 (in 105 days) · open opportunity: Expansion",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P12",
+    "play_name": "Expansion already in the pipeline: help close it",
+    "play_do": "This week, send the new request (who asked, what they want) to the owner of the open opportunity and add it to that deal. Do not open a second opportunity.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Expansion + Timing: \"Singapore is confirmed. We want the platform live there in January,… · Open opportunity in the CRM: Expansion",
+    "why_now": [
+      "Expansion + Timing: \"Singapore is confirmed. We want the platform live there in January, and Sydney after that.\" (Sofia Lind, Head of Travel)",
+      "Open opportunity in the CRM: Expansion.",
+      "Renewal in 105 days (2027-01-31)."
+    ],
+    "who": {
+      "name": "Sofia Lind",
+      "title": "Head of Travel",
+      "why": "Said it on the latest call",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "Call 06:28, Sofia Lind, 2026-10-15",
+        "url": "https://gong.example.com/call?id=1105"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 0,
+      "competitor_risk": 0,
+      "pricing": 0,
+      "expansion": 1,
+      "timing": 1,
+      "near_renewal": true,
+      "open_deal": true
+    },
+    "built_from": {
+      "account": {
+        "account": "Woodgrove Bank",
+        "domain": "woodgrove.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "customer",
+        "owner": "Riley Shaw",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000003",
+        "parent_id": "",
+        "renewal_date": "2027-01-31",
+        "open_opportunity": "Expansion",
+        "crm_id": "001DEMO0000000010"
+      },
+      "parent": null,
+      "row_ids": [],
+      "finding_ids": [
+        "GC-1105-2"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 0,
+      "expansion": 1,
+      "timing": 1
+    },
+    "rank": 6,
+    "owner_id": "005DEMO0000000003",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000010"
+  },
+  {
+    "id": "acct_001DEMO0000000001",
+    "account": "Acme Robotics",
+    "domain": "acme.com",
+    "type": "customer",
+    "part_of": "",
+    "owner": "Jordan Blake",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000001",
+    "renewal_days": 194,
+    "priority": 25,
+    "tier": "Low",
+    "rank_reason": "champion left 25",
+    "context": "Customer · owner Jordan Blake · renews 2027-04-30 (in 194 days)",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P9",
+    "play_name": "Champion left a customer",
+    "play_do": "Within two weeks the account owner finds who now owns the program at the customer, meets them, walks them through what the account uses today, and tells the renewal owner.",
+    "status": "Check first",
+    "checks": [
+      "No one to contact yet: no owner since Dana Reyes left: name one."
+    ],
+    "headline": "Champion left: Dana Reyes (Head of Travel) moved to Contoso Systems 47 days ago · People change: \"Our day-to-day owner Dana Reyes has left; no new owner named yet.\"…",
+    "why_now": [
+      "Champion left: Dana Reyes (Head of Travel) moved to Contoso Systems 47 days ago.",
+      "People change: \"Our day-to-day owner Dana Reyes has left; no new owner named yet.\" (Jordan Blake, Account Manager) (reported by our team)"
+    ],
+    "who": {
+      "name": "",
+      "title": "",
+      "why": "No owner since Dana Reyes left: name one",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "CRM note, Jordan Blake, 2026-10-17",
+        "url": "https://example.my.salesforce.com/lightning/r/Task/00TDEMO00000000603/view"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 1,
+      "competitor_risk": 0,
+      "pricing": 0,
+      "expansion": 0,
+      "timing": 0,
+      "near_renewal": false,
+      "open_deal": false
+    },
+    "built_from": {
+      "account": {
+        "account": "Acme Robotics",
+        "domain": "acme.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "customer",
+        "owner": "Jordan Blake",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000002",
+        "parent_id": "",
+        "renewal_date": "2027-04-30",
+        "open_opportunity": "",
+        "crm_id": "001DEMO0000000001"
+      },
+      "parent": null,
+      "row_ids": [
+        "003W001"
+      ],
+      "finding_ids": [
+        "CRM-00TDEMO00000000603"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 0,
+      "expansion": 0,
+      "timing": 0
+    },
+    "rank": 7,
+    "owner_id": "005DEMO0000000002",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000001"
+  },
+  {
+    "id": "acct_001DEMO0000000008",
+    "account": "Tailspin Toys",
+    "domain": "tailspin.com",
+    "type": "prospect",
+    "part_of": "",
+    "owner": "Alex Kim",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000008",
+    "renewal_days": null,
+    "priority": 25,
+    "tier": "Low",
+    "rank_reason": "competitor risk 15 · pricing friction 10",
+    "context": "Prospect · owner Alex Kim · open opportunity: Evaluation",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P7",
+    "play_name": "Competitor in a deal",
+    "play_do": "This week the deal owner asks the prospect which tools they are comparing and what will decide it, then sets up a call with a reference customer who made the same comparison.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Competitor + Pricing: \"TripStack is cheaper per trip, but their support worried us.\"… · Competitor + Pricing: \"Omar asked if we can match TripStack's per-trip fee.\" (Sam Ito,…",
+    "why_now": [
+      "Competitor + Pricing: \"TripStack is cheaper per trip, but their support worried us.\" (Omar Haddad, CFO)",
+      "Competitor + Pricing: \"Omar asked if we can match TripStack's per-trip fee.\" (Sam Ito, SDR) (reported by our team)"
+    ],
+    "who": {
+      "name": "Omar Haddad",
+      "title": "CFO",
+      "why": "Said it on the latest call",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "Call 19:04, Omar Haddad, 2026-10-16",
+        "url": "https://gong.example.com/call?id=1106"
+      },
+      {
+        "label": "Field note, Sam Ito, 2026-10-16",
+        "url": "https://example.slack.com/archives/C0FIELDNOTES/p1792162800000000"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 0,
+      "competitor_risk": 2,
+      "pricing": 2,
+      "expansion": 0,
+      "timing": 0,
+      "near_renewal": false,
+      "open_deal": true
+    },
+    "built_from": {
+      "account": {
+        "account": "Tailspin Toys",
+        "domain": "tailspin.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "prospect",
+        "owner": "Alex Kim",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000001",
+        "parent_id": "",
+        "renewal_date": "",
+        "open_opportunity": "Evaluation",
+        "crm_id": "001DEMO0000000008"
+      },
+      "parent": null,
+      "row_ids": [],
+      "finding_ids": [
+        "GC-1106-2",
+        "FN-1792162800.000000"
+      ]
+    },
+    "signals": {
+      "competitor": 2,
+      "pricing_friction": 2,
+      "expansion": 0,
+      "timing": 0
+    },
+    "rank": 8,
+    "owner_id": "005DEMO0000000001",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000008"
+  },
+  {
+    "id": "acct_001DEMO0000000009",
+    "account": "Umbrella Health",
+    "domain": "umbrella.com",
+    "type": "customer",
+    "part_of": "",
+    "owner": "Jordan Blake",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000009",
+    "renewal_days": 164,
+    "priority": 20,
+    "tier": "Low",
+    "rank_reason": "expansion request 20",
+    "context": "Customer · owner Jordan Blake · renews 2027-03-31 (in 164 days)",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P6",
+    "play_name": "Expansion request",
+    "play_do": "This week the account owner meets the person who asked, confirms the team, region or module and the number of seats, and sends a written scope and quote.",
+    "status": "Ready",
+    "checks": [],
+    "headline": "Expansion: \"The cards pilot worked. Finance wants it for all 600 field staff, and maybe…",
+    "why_now": [
+      "Expansion: \"The cards pilot worked. Finance wants it for all 600 field staff, and maybe events too.\" (Lena Ortiz, Controller)"
+    ],
+    "who": {
+      "name": "Lena Ortiz",
+      "title": "Controller",
+      "why": "Said it on the latest call",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "Call 15:21, Lena Ortiz, 2026-10-17",
+        "url": "https://gong.example.com/call?id=1108"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 0,
+      "competitor_risk": 0,
+      "pricing": 0,
+      "expansion": 1,
+      "timing": 0,
+      "near_renewal": false,
+      "open_deal": false
+    },
+    "built_from": {
+      "account": {
+        "account": "Umbrella Health",
+        "domain": "umbrella.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "customer",
+        "owner": "Jordan Blake",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000002",
+        "parent_id": "",
+        "renewal_date": "2027-03-31",
+        "open_opportunity": "",
+        "crm_id": "001DEMO0000000009"
+      },
+      "parent": null,
+      "row_ids": [],
+      "finding_ids": [
+        "GC-1108-2"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 0,
+      "expansion": 1,
+      "timing": 0
+    },
+    "rank": 9,
+    "owner_id": "005DEMO0000000002",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000009"
+  },
+  {
+    "id": "acct_001DEMO0000000006",
+    "account": "Litware",
+    "domain": "litware.com",
+    "type": "prospect",
+    "part_of": "",
+    "owner": "Alex Kim",
+    "owner_routed": false,
+    "crm_id": "001DEMO0000000006",
+    "renewal_days": null,
+    "priority": 6,
+    "tier": "Low",
+    "rank_reason": "pricing friction 6",
+    "context": "Prospect · owner Alex Kim · open opportunity: Proposal",
+    "icp": {
+      "fit": "",
+      "why": [],
+      "not_checked": [],
+      "industry": "",
+      "employees": null,
+      "country": "",
+      "source": ""
+    },
+    "surface_version": "1.3",
+    "plays_version": "1.2",
+    "play": "P8",
+    "play_name": "Pricing concern (prospect)",
+    "play_do": "This week the deal owner asks the prospect which number is the problem and what budget they have, and rebuilds the cost case with their figures before any discount is discussed.",
+    "status": "Check first",
+    "checks": [
+      "Only reported by our team so far: confirm with the customer.",
+      "No one to contact yet: no customer contact on record: ask Alex Kim."
+    ],
+    "headline": "Pricing: \"Champion says the CFO pushed back on price and asked for a multi-year…",
+    "why_now": [
+      "Pricing: \"Champion says the CFO pushed back on price and asked for a multi-year discount.\" (Alex Kim, Account Executive) (reported by our team)"
+    ],
+    "who": {
+      "name": "",
+      "title": "",
+      "why": "No customer contact on record: ask Alex Kim",
+      "linkedin": ""
+    },
+    "links": [
+      {
+        "label": "CRM note, Alex Kim, 2026-10-13",
+        "url": "https://example.my.salesforce.com/lightning/r/Task/00TDEMO00000000601/view"
+      }
+    ],
+    "inputs": {
+      "champion_in": 0,
+      "champion_out": 0,
+      "competitor_risk": 0,
+      "pricing": 1,
+      "expansion": 0,
+      "timing": 0,
+      "near_renewal": false,
+      "open_deal": true
+    },
+    "built_from": {
+      "account": {
+        "account": "Litware",
+        "domain": "litware.com",
+        "industry": "",
+        "employees": null,
+        "country": "",
+        "type": "prospect",
+        "owner": "Alex Kim",
+        "owner_email": "",
+        "owner_id": "005DEMO0000000001",
+        "parent_id": "",
+        "renewal_date": "",
+        "open_opportunity": "Proposal",
+        "crm_id": "001DEMO0000000006"
+      },
+      "parent": null,
+      "row_ids": [],
+      "finding_ids": [
+        "CRM-00TDEMO00000000601"
+      ]
+    },
+    "signals": {
+      "competitor": 0,
+      "pricing_friction": 1,
+      "expansion": 0,
+      "timing": 0
+    },
+    "rank": 10,
+    "owner_id": "005DEMO0000000001",
+    "owner_name_unique": true,
+    "button_value": "2026-10-18-770aff57:acct_001DEMO0000000006"
+  }
+]

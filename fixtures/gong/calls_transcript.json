@@ -1,0 +1,694 @@
+{
+  "requestId": "demo",
+  "records": {
+    "totalRecords": 18,
+    "currentPageSize": 18,
+    "currentPageNumber": 0
+  },
+  "callTranscripts": [
+    {
+      "callId": "1001",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for making the time today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 312000,
+              "end": 321000,
+              "text": "Renewal is in December, and the per-seat price is already hard to justify to our CFO."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 332000,
+              "end": 338000,
+              "text": "That's helpful. I'll send a recap by email after this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1002",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Good to see you again. Shall we start with where things are?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 845000,
+              "end": 854000,
+              "text": "We like the travel side. Expense reporting is where people complain."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 865000,
+              "end": 871000,
+              "text": "Got it. Let's pick this up on Thursday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1003",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for joining. I have a few questions from last time."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1290000,
+              "end": 1299000,
+              "text": "If APAC goes well, we'd want to roll out to the Singapore and Sydney offices next year."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1310000,
+              "end": 1316000,
+              "text": "Makes sense. I'll share notes with the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1004",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for making the time today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 402000,
+              "end": 411000,
+              "text": "We also have a demo with TripStack next week."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 422000,
+              "end": 428000,
+              "text": "That's helpful. I'll send a recap by email after this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1005",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Good to see you again. Shall we start with where things are?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1733000,
+              "end": 1742000,
+              "text": "Can we add corporate cards for the field teams?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1753000,
+              "end": 1759000,
+              "text": "Got it. Let's pick this up on Thursday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1101",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for joining. I have a few questions from last time."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 208000,
+              "end": 217000,
+              "text": "Ledgerly quoted us 30 percent less for expense alone, so we need a sharper renewal number."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 228000,
+              "end": 234000,
+              "text": "Makes sense. I'll share notes with the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1102",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for making the time today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 655000,
+              "end": 664000,
+              "text": "Procurement wants three options on the table before we sign anything for next year."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 675000,
+              "end": 681000,
+              "text": "That's helpful. I'll send a recap by email after this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1103",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Good to see you again. Shall we start with where things are?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 97000,
+              "end": 106000,
+              "text": "Our team started a trial of Ledgerly for expense reports last week."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 117000,
+              "end": 123000,
+              "text": "Got it. Let's pick this up on Thursday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1104",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for joining. I have a few questions from last time."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1502000,
+              "end": 1511000,
+              "text": "I'd rather fix the expense workflow with you than switch, but I need a plan by November."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1522000,
+              "end": 1528000,
+              "text": "Makes sense. I'll share notes with the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1105",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for making the time today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 388000,
+              "end": 397000,
+              "text": "Singapore is confirmed. We want the platform live there in January, and Sydney after that."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 408000,
+              "end": 414000,
+              "text": "That's helpful. I'll send a recap by email after this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1106",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Good to see you again. Shall we start with where things are?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1144000,
+              "end": 1153000,
+              "text": "TripStack is cheaper per trip, but their support worried us."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1164000,
+              "end": 1170000,
+              "text": "Got it. Let's pick this up on Thursday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1107",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for joining. I have a few questions from last time."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 730000,
+              "end": 739000,
+              "text": "We spend a lot of time on approvals today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 750000,
+              "end": 756000,
+              "text": "Makes sense. I'll share notes with the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1108",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for making the time today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 921000,
+              "end": 930000,
+              "text": "The cards pilot worked. Finance wants it for all 600 field staff, and maybe events too."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 941000,
+              "end": 947000,
+              "text": "That's helpful. I'll send a recap by email after this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1109",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Good to see you again. Shall we start with where things are?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 264000,
+              "end": 273000,
+              "text": "Our current provider's contract ends in March, and we're collecting proposals in January."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 284000,
+              "end": 290000,
+              "text": "Got it. Let's pick this up on Thursday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1110",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for joining. I have a few questions from last time."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 533000,
+              "end": 542000,
+              "text": "Ben joined us from Globex and wants the same setup for facilities travel."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 553000,
+              "end": 559000,
+              "text": "Makes sense. I'll share notes with the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1111",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for making the time today."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1820000,
+              "end": 1829000,
+              "text": "I think they'll say our price is too high."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-3",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1840000,
+              "end": 1846000,
+              "text": "That's helpful. I'll send a recap by email after this."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1112",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Good to see you again. Shall we start with where things are?"
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1011000,
+              "end": 1020000,
+              "text": "Honestly, the price was never the issue."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1031000,
+              "end": 1037000,
+              "text": "Got it. Let's pick this up on Thursday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "callId": "1113",
+      "transcript": [
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 5000,
+              "end": 9000,
+              "text": "Thanks for joining. I have a few questions from last time."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-2",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1340000,
+              "end": 1349000,
+              "text": "We export everything to the general ledger at month end."
+            }
+          ]
+        },
+        {
+          "speakerId": "sp-1",
+          "topic": null,
+          "sentences": [
+            {
+              "start": 1360000,
+              "end": 1366000,
+              "text": "Makes sense. I'll share notes with the team."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

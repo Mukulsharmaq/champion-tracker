@@ -7,7 +7,7 @@ from typing import Dict, List
 
 ACTIONS = [  # (action_id, label, style)
     ("accept", "Work this account", "primary"),
-    ("snooze", "Snooze 30 days", None),
+    ("snooze", "Snooze 1 week", None),    # pg_system.state: hidden on the next weekly run, back on the one after
     ("dismiss", "Dismiss", None),
     ("wrong_person", "Wrong person", "danger"),
     ("wrong_play", "Wrong play", None),

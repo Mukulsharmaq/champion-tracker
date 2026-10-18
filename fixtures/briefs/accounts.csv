@@ -1,0 +1,11 @@
+account,domain,type,owner,renewal_date,open_opportunity
+Acme Robotics,acme.com,customer,Jordan Blake,2027-04-30,
+Contoso Systems,contoso.com,prospect,Taylor Brooks,,
+Fabrikam,fabrikam.com,prospect,Taylor Brooks,,Discovery
+Globex Media,globex.com,customer,Riley Shaw,2026-12-15,Renewal
+Initech,initech.com,customer,Riley Shaw,2027-02-28,
+Litware,litware.com,prospect,Alex Kim,,Proposal
+Northwind Foods,northwind.com,customer,Jordan Blake,2027-06-30,
+Tailspin Toys,tailspin.com,prospect,Alex Kim,,Evaluation
+Umbrella Health,umbrella.com,customer,Jordan Blake,2027-03-31,
+Woodgrove Bank,woodgrove.com,customer,Riley Shaw,2027-01-31,Expansion

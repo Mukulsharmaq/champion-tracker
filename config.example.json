@@ -1,0 +1,65 @@
+{
+  "_note": "Copy to config.json and fill in. Names, ids and switches only: keys live in environment variables (see .env.example).",
+  "channel": "",
+  "allow_shared_channel": false,
+  "field_notes_channel": "",
+  "field_notes_bot_ids": [],
+  "period_days": 7,
+  "sources": {
+    "warehouse": true,
+    "people": true,
+    "gong": true,
+    "salesforce": true,
+    "field_notes": true
+  },
+  "champion_seed_csv": "",
+  "people_source": "api",
+  "people_workers": 8,
+  "people_cache_days": 8,
+  "preflight_person": {
+    "_note": "--check runs one real people lookup of this person (someone you know is in the provider).",
+    "first": "",
+    "last": "",
+    "company": ""
+  },
+  "clay_csv_path": "",
+  "clay_columns": {},
+  "aliases": {},
+  "known_customer_domains": [],
+  "blocked": {
+    "_note": "Competitors and partners: a champion who joins one gets no card, and run health says so.",
+    "domains": {},
+    "names": {}
+  },
+  "icp": {
+    "_note": "Who is worth working: a card outside it gets half its priority and a check. Empty = no ICP check. Industry words match Salesforce Industry (or the people data for a company not in the CRM).",
+    "industries_include": [],
+    "industries_exclude": [],
+    "min_employees": null,
+    "max_employees": null,
+    "countries": []
+  },
+  "observer": {
+    "enabled": false
+  },
+  "review_owner": {
+    "name": "RevOps owner",
+    "slack_id": ""
+  },
+  "default_owner": "",
+  "owner_slack_ids": {},
+  "digest_to": "channel",
+  "pipeline_admins": [],
+  "schedule": {
+    "weekday": "MON",
+    "hour_utc": 7
+  },
+  "old_move_days": 365,
+  "qa_sample_size": 5,
+  "write_back": "dry_run",
+  "write_to_warehouse": false,
+  "feedback_log": "feedback/feedback.jsonl",
+  "regression_file": "feedback/regression_cases.jsonl",
+  "retention_days": 365,
+  "keep_runs": 52
+}

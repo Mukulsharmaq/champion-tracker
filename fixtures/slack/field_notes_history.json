@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "type": "message",
+      "user": "U0SAMITO",
+      "text": "Contoso Systems: Dana Reyes (ex-Acme) liked our post on policy controls.",
+      "ts": "1792249201.000000"
+    },
+    {
+      "type": "message",
+      "user": "U0SAMITO",
+      "text": "Tailspin Toys: Omar asked if we can match TripStack's per-trip fee.",
+      "ts": "1792162800.000000"
+    },
+    {
+      "type": "message",
+      "user": "U0RILEY",
+      "text": "Reminder: pipeline review moves to Thursday this week.",
+      "ts": "1791972000.000000"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "user": "U0SAMITO",
+      "text": "<@U0SAMITO> has joined the channel",
+      "ts": "1791190800.000000"
+    }
+  ],
+  "has_more": false,
+  "response_metadata": {
+    "next_cursor": ""
+  }
+}

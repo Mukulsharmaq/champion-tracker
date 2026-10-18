@@ -1,0 +1,512 @@
+[
+{
+"id": "N001",
+"themes": {
+"pricing_friction": "Our Q3 travel budget got cut, like, by a third"
+}
+},
+{
+"id": "N002",
+"themes": {
+"engagement": "ROI deck per her request"
+}
+},
+{
+"id": "N003",
+"themes": {}
+},
+{
+"id": "N004",
+"themes": {
+"expansion": "Headcount's going from 450 to about 600",
+"timing": "by end of next year"
+}
+},
+{
+"id": "N005",
+"themes": {
+"expansion": "new office coming along"
+}
+},
+{
+"id": "N006",
+"themes": {
+"timing": "need to close by Q1"
+}
+},
+{
+"id": "N007",
+"themes": {}
+},
+{
+"id": "N008",
+"themes": {
+"timing": "Renewal 3/31. Procurement review starts Jan."
+}
+},
+{
+"id": "N009",
+"themes": {
+"pricing_friction": "The board wants T&E spend down 15% next year"
+}
+},
+{
+"id": "N010",
+"themes": {
+"expansion": "If we expand to all three subsidiaries",
+"pricing_friction": "what kind of discount are we talking?"
+}
+},
+{
+"id": "N011",
+"themes": {}
+},
+{
+"id": "N012",
+"themes": {}
+},
+{
+"id": "N013",
+"themes": {}
+},
+{
+"id": "N014",
+"themes": {
+"expansion": "we've outgrown it. What does the next tier include?"
+}
+},
+{
+"id": "N015",
+"themes": {}
+},
+{
+"id": "N016",
+"themes": {}
+},
+{
+"id": "N017",
+"themes": {}
+},
+{
+"id": "N018",
+"themes": {
+"competitor": "Spendwise lost Hooli back to us"
+}
+},
+{
+"id": "N019",
+"themes": {}
+},
+{
+"id": "N020",
+"themes": {}
+},
+{
+"id": "N021",
+"themes": {
+"timing": "target 12/15"
+}
+},
+{
+"id": "N022",
+"themes": {}
+},
+{
+"id": "N023",
+"themes": {}
+},
+{
+"id": "N024",
+"themes": {}
+},
+{
+"id": "N025",
+"themes": {
+"people_change": "Acme's VP fin is leaving in Dec"
+}
+},
+{
+"id": "N026",
+"themes": {}
+},
+{
+"id": "N027",
+"themes": {}
+},
+{
+"id": "N028",
+"themes": {
+"competitor": "match Ledgerly on per-user pricing",
+"pricing_friction": "match Ledgerly on per-user pricing",
+"timing": "we'd sign this quarter"
+}
+},
+{
+"id": "N029",
+"themes": {
+"engagement": "I downloaded the travel policy template from your site"
+}
+},
+{
+"id": "N030",
+"themes": {}
+},
+{
+"id": "N031",
+"themes": {}
+},
+{
+"id": "N032",
+"themes": {
+"people_change": "The new procurement lead, Daniel, joined in September"
+}
+},
+{
+"id": "N033",
+"themes": {}
+},
+{
+"id": "N034",
+"themes": {
+"timing": "The contract's up in June, but I want a decision by April"
+}
+},
+{
+"id": "N035",
+"themes": {
+"people_change": "Tom's moving over to the operations side"
+}
+},
+{
+"id": "N036",
+"themes": {
+"timing": "Should be done by January"
+}
+},
+{
+"id": "N037",
+"themes": {
+"pricing_friction": "a three year term is a non-starter for us"
+}
+},
+{
+"id": "N038",
+"themes": {}
+},
+{
+"id": "N039",
+"themes": {
+"timing": "a decision by end of quarter"
+}
+},
+{
+"id": "N040",
+"themes": {
+"people_change": "Champion (Sarah K) leaving end of Oct"
+}
+},
+{
+"id": "N041",
+"themes": {
+"engagement": "I went through the ROI calculator on your site"
+}
+},
+{
+"id": "N042",
+"themes": {}
+},
+{
+"id": "N043",
+"themes": {}
+},
+{
+"id": "N044",
+"themes": {}
+},
+{
+"id": "N045",
+"themes": {
+"pricing_friction": "your pricing went up 12% at renewal"
+}
+},
+{
+"id": "N046",
+"themes": {}
+},
+{
+"id": "N047",
+"themes": {}
+},
+{
+"id": "N048",
+"themes": {}
+},
+{
+"id": "N049",
+"themes": {}
+},
+{
+"id": "N050",
+"themes": {
+"pricing_friction": "I'm not sure the cards make sense for us if the rebate is only 0.8%"
+}
+},
+{
+"id": "N051",
+"themes": {}
+},
+{
+"id": "N052",
+"themes": {
+"timing": "Our contract with you renews end of March"
+}
+},
+{
+"id": "N053",
+"themes": {
+"timing": "probably this week"
+}
+},
+{
+"id": "N054",
+"themes": {
+"expansion": "Upsell to next tier discussed"
+}
+},
+{
+"id": "N055",
+"themes": {}
+},
+{
+"id": "N056",
+"themes": {}
+},
+{
+"id": "N057",
+"themes": {
+"pricing_friction": "their travel budget got slashed",
+"timing": "travel freeze at Stark for Q4"
+}
+},
+{
+"id": "N058",
+"themes": {}
+},
+{
+"id": "N059",
+"themes": {
+"timing": "after the board meeting on the 3rd"
+}
+},
+{
+"id": "N060",
+"themes": {
+"engagement": "Customer downloaded travel policy template + used ROI calculator"
+}
+},
+{
+"id": "N061",
+"themes": {}
+},
+{
+"id": "N062",
+"themes": {
+"competitor": "TripStack is doing 6mo free promos in EMEA"
+}
+},
+{
+"id": "N063",
+"themes": {
+"pricing_friction": "I'm not sure I can justify the cost against what we save"
+}
+},
+{
+"id": "N064",
+"themes": {
+"timing": "Just need the paperwork sorted by the 20th"
+}
+},
+{
+"id": "N065",
+"themes": {
+"engagement": "the benchmark report is getting forwarded around a lot"
+}
+},
+{
+"id": "N066",
+"themes": {}
+},
+{
+"id": "N067",
+"themes": {
+"engagement": "Did that webinar on duty of care last week"
+}
+},
+{
+"id": "N068",
+"themes": {}
+},
+{
+"id": "N069",
+"themes": {}
+},
+{
+"id": "N070",
+"themes": {
+"expansion": "We'd like to roll it out to the APAC entities as well"
+}
+},
+{
+"id": "N071",
+"themes": {
+"timing": "Our internal QBR is on the 9th"
+}
+},
+{
+"id": "N072",
+"themes": {}
+},
+{
+"id": "N073",
+"themes": {}
+},
+{
+"id": "N074",
+"themes": {}
+},
+{
+"id": "N075",
+"themes": {
+"people_change": "I'd like to bring our IT lead on the next call"
+}
+},
+{
+"id": "N076",
+"themes": {
+"timing": "demo 10/24"
+}
+},
+{
+"id": "N077",
+"themes": {}
+},
+{
+"id": "N078",
+"themes": {
+"timing": "they're not gonna sign before their board mtg on the 3rd"
+}
+},
+{
+"id": "N079",
+"themes": {
+"engagement": "Could you send me that case study"
+}
+},
+{
+"id": "N080",
+"themes": {
+"pricing_friction": "the price you quoted is about 30% higher than what we budgeted"
+}
+},
+{
+"id": "N081",
+"themes": {}
+},
+{
+"id": "N082",
+"themes": {}
+},
+{
+"id": "N083",
+"themes": {
+"competitor": "Ledgerly undercut on per-seat in mid-market"
+}
+},
+{
+"id": "N084",
+"themes": {
+"people_change": "Vandelay CFO new as of Monday",
+"competitor": "came from a Ledgerly shop"
+}
+},
+{
+"id": "N085",
+"themes": {}
+},
+{
+"id": "N086",
+"themes": {}
+},
+{
+"id": "N087",
+"themes": {}
+},
+{
+"id": "N088",
+"themes": {}
+},
+{
+"id": "N089",
+"themes": {
+"timing": "for the next two quarters"
+}
+},
+{
+"id": "N090",
+"themes": {}
+},
+{
+"id": "N091",
+"themes": {
+"people_change": "I'll bring in our deal desk"
+}
+},
+{
+"id": "N092",
+"themes": {}
+},
+{
+"id": "N093",
+"themes": {}
+},
+{
+"id": "N094",
+"themes": {
+"pricing_friction": "Pricing pushback: they say we're 30% over budget"
+}
+},
+{
+"id": "N095",
+"themes": {
+"competitor": "we looked at Spendwise two years ago and walked away"
+}
+},
+{
+"id": "N096",
+"themes": {}
+},
+{
+"id": "N097",
+"themes": {
+"expansion": "Wants to add cards for sales team (~80 ppl)"
+}
+},
+{
+"id": "N098",
+"themes": {
+"people_change": "I'm leaving the company in December"
+}
+},
+{
+"id": "N099",
+"themes": {
+"expansion": "we hired like 60 people this quarter"
+}
+},
+{
+"id": "N100",
+"themes": {
+"people_change": "Our controller just retired"
+}
+}
+]

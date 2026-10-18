@@ -1,0 +1,53 @@
+{
+  "_doc": "Approved plays for the pipeline surface, and the ordered rules that pick one. Loaded at runtime by src/pg_surface/plays.py; the Clay formula in clay/surface_formulas.md is generated from these rules (scripts/clay_formula.py). First matching rule wins; no match = no card. The system never invents a play. Each 'do' is what the owner does this week and with whom, in plain words.",
+  "version": "1.2",
+  "facts": {
+    "customer": "the account is a customer in the CRM (or a champion joined an account whose parent is a customer)", "prospect": "the account is not a customer",
+    "near_renewal": "customer renewal within 120 days", "pricing": "pricing friction this period",
+    "competitor_risk": "a competitor trial, quote, demo or evaluation this period", "champion_in": "a confirmed champion joined (Card or Review)",
+    "champion_out": "a confirmed champion left within 90 days, old job closed", "expansion": "the customer asked for more seats, regions or modules",
+    "timing": "a contract end, renewal, RFP or proposal window from the customer this period",
+    "open_deal": "the account has an open opportunity in the CRM"
+  },
+  "rules": [
+    {"play": "P4", "all": ["customer", "near_renewal"], "any": ["pricing", "competitor_risk"]},
+    {"play": "P5", "all": ["customer", "competitor_risk"]},
+    {"play": "P2", "all": ["customer", "champion_in"]},
+    {"play": "P12", "all": ["customer", "expansion", "open_deal"]},
+    {"play": "P6", "all": ["customer", "expansion"]},
+    {"play": "P9", "all": ["customer", "champion_out"]},
+    {"play": "P11", "all": ["prospect", "champion_in", "open_deal"]},
+    {"play": "P1", "all": ["prospect", "champion_in"]},
+    {"play": "P7", "all": ["prospect", "competitor_risk"]},
+    {"play": "P8", "all": ["prospect", "pricing"]},
+    {"play": "P10", "all": ["timing"]}
+  ],
+  "plays": {
+    "P1": {"name": "Champion joined a prospect", "for": "prospect", "lead_with": ["champion_in"],
+           "do": "This week the account owner sends the champion a short personal note: congratulate them on the new role, name the project they ran with us at their old company, and ask for 20 minutes to hear how their new team works today."},
+    "P2": {"name": "Champion joined a customer", "for": "customer", "lead_with": ["champion_in", "expansion"],
+           "do": "This week the account owner calls the champion, finds out which team or region they now run and whether that team uses us yet, and agrees the next step with them before contacting anyone else on that team."},
+    "P3": {"name": "Champion still at customer", "for": "customer", "lead_with": [],
+           "do": "No outreach. Keep them as a reference and recheck their profile on every run. (Champion tracker play for Watch rows; the surface never falls back to it.)"},
+    "P4": {"name": "Renewal save", "for": "customer", "lead_with": ["renewal", "competitor", "pricing"],
+           "do": "Before the renewal date, the account owner and their manager meet the customer's decision maker: go through usage and results first, then hear the pricing or competitor concern. No discount is offered before that meeting."},
+    "P5": {"name": "Competitor at a customer", "for": "customer", "lead_with": ["competitor"],
+           "do": "This week the account owner asks the champion which team is testing the competitor and for what; within two weeks, fix that gap or book a working session with that team."},
+    "P6": {"name": "Expansion request", "for": "customer", "lead_with": ["expansion"],
+           "do": "This week the account owner meets the person who asked, confirms the team, region or module and the number of seats, and sends a written scope and quote."},
+    "P7": {"name": "Competitor in a deal", "for": "prospect", "lead_with": ["competitor"],
+           "do": "This week the deal owner asks the prospect which tools they are comparing and what will decide it, then sets up a call with a reference customer who made the same comparison."},
+    "P8": {"name": "Pricing concern (prospect)", "for": "prospect", "lead_with": ["pricing"],
+           "do": "This week the deal owner asks the prospect which number is the problem and what budget they have, and rebuilds the cost case with their figures before any discount is discussed."},
+    "P9": {"name": "Champion left a customer", "for": "customer", "lead_with": ["champion_out", "people_change"],
+           "do": "Within two weeks the account owner finds who now owns the program at the customer, meets them, walks them through what the account uses today, and tells the renewal owner."},
+    "P10": {"name": "Timing window", "for": "any", "lead_with": ["timing"],
+            "do": "This week the owner confirms with the customer the decision date, who signs and how they will choose, and puts those dates in the CRM."},
+    "P11": {"name": "Champion inside an open deal: brief the deal owner", "for": "prospect", "lead_with": ["champion_in", "open_deal"],
+            "do": "Today, tell the deal owner the champion has joined and what they ran with us before. The deal owner decides whether and when to bring them into the deal; nobody else contacts them first."},
+    "P12": {"name": "Expansion already in the pipeline: help close it", "for": "customer", "lead_with": ["expansion", "open_deal"],
+            "do": "This week, send the new request (who asked, what they want) to the owner of the open opportunity and add it to that deal. Do not open a second opportunity."}
+  },
+  "status": {"Ready": "Every fact on the card is confirmed and there is a person to contact",
+             "Check first": "Something needs a human look first; the card says what"}
+}

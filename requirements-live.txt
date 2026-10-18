@@ -1,0 +1,5 @@
+# Live-only dependencies: the same as pyproject.toml -> [project.optional-dependencies] live.
+#   pip install -r requirements-live.txt      (or: pip install ".[live]")
+# Demo mode, the rules and the tests need none of these (standard library only).
+slack_bolt>=1.18
+snowflake-connector-python>=3.8.1

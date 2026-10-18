@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "members": [
+    {
+      "id": "U0SAMITO",
+      "name": "sam.ito",
+      "real_name": "Sam Ito",
+      "profile": {
+        "real_name": "Sam Ito",
+        "title": "SDR"
+      }
+    },
+    {
+      "id": "U0RILEY",
+      "name": "riley.shaw",
+      "real_name": "Riley Shaw",
+      "profile": {
+        "real_name": "Riley Shaw",
+        "title": "Account Manager"
+      }
+    }
+  ],
+  "response_metadata": {
+    "next_cursor": ""
+  }
+}

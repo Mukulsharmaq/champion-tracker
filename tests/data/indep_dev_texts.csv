@@ -1,0 +1,101 @@
+id,source,side,text
+N001,call,customer,"Our Q3 travel budget got cut, like, by a third. So everybody's doing Teams calls instead of flying to Dallas."
+N002,crm,internal,Sent case study (manufacturing) + ROI deck per her request.
+N003,call,customer,"Contractors, we've got like 40 of them, do they need licenses or can they just submit?"
+N004,call,customer,Headcount's going from 450 to about 600 by end of next year if the funding round closes.
+N005,call,internal,How's the new office coming along? Last time you said the lease was still being signed.
+N006,call,customer,Our audit found that 8% of expenses didn't have a receipt. That's a finding we need to close by Q1.
+N007,call,customer,"um so the receipts for the Madrid trip, Carlos still hasn't submitted them, it's been like six weeks"
+N008,crm,internal,Renewal 3/31. Procurement review starts Jan. Need exec sponsor mtg before xmas.
+N009,call,customer,"The board wants T&E spend down 15% next year across the group, so travel is going to get squeezed regardless."
+N010,call,customer,"If we expand to all three subsidiaries, what kind of discount are we talking?"
+N011,call,customer,"The ledger reconciliation takes us like four days every month, it's all manual, Excel and a lot of coffee."
+N012,call,customer,"We stack our team offsites in Q1 because flights are cheaper, January's dead."
+N013,call,customer,I'm going to need a security questionnaire filled out before we go any further. Our CISO's strict about it.
+N014,call,customer,"We're on your basic tier, but honestly we've outgrown it. What does the next tier include?"
+N015,call,customer,Hotel in Paris for the conference was 420 euros a night. For a three-star. Insane.
+N016,call,customer,"Mileage is 45p a mile here, it's the HMRC rate, we just follow that."
+N017,call,customer,"Per trip we average maybe 1,400 dollars all in, flights, hotel, meals, accomodation taxes."
+N018,field,internal,"Spendwise lost Hooli back to us apparently, their reporting couldn't handle multi-entity"
+N019,call,customer,can you guys do per diems automatically? like by country? that'd save us a ton of back and forth
+N020,crm,internal,"Mostly domestic travel (80%), rail heavy in EU. FYI for config."
+N021,crm,internal,"Decision by CFO + Head of Procurement, target 12/15."
+N022,call,internal,"The policy engine lets you set hotel caps by city, so London can be 250 and Leeds 120, that kind of thing."
+N023,call,internal,"Card limits are fully controllable per person and per merchant category, and you can freeze a card from the app."
+N024,call,internal,"My kid just started school too, it's been a week of chaos honestly."
+N025,field,internal,"heads up, Acme's VP fin is leaving in Dec, our champion's gone, someone get to the new person"
+N026,field,internal,lol customer told me teh CEO expensed a 900 dollar dinner. policy convo incoming
+N027,call,customer,"Last year we did 1,100 hotel nights in New York alone."
+N028,call,customer,"Honestly if you can match Ledgerly on per-user pricing, we'd sign this quarter."
+N029,call,customer,"I downloaded the travel policy template from your site, we're adapting it for our new policy actually."
+N030,crm,internal,Talked through GL code mapping by cost center. Support ticket #44812 opened.
+N031,call,customer,"I'll be at the conference in Vegas next week, are you guys going?"
+N032,call,customer,"The new procurement lead, Daniel, joined in September and he wants to review every vendor contract over 50k, yours included."
+N033,crm,internal,"Talked travel policy - hotel cap £180 London, econ <6h. Nothing actionable."
+N034,call,customer,"The contract's up in June, but I want a decision by April so we're not rushing."
+N035,call,customer,"Tom's moving over to the operations side, so you'll be dealing with Priya from now on for anything finance."
+N036,call,customer,Our travel policy is getting rewritten. HR's doing it. Should be done by January.
+N037,call,customer,"Listen, a three year term is a non-starter for us. We do one year, maybe two with an out clause."
+N038,field,internal,"hotel rates in NYC are insane right now, customers keep bringing it up. not a us problem but good talking point"
+N039,call,internal,"Are you still on track for a decision by end of quarter, or has that moved?"
+N040,crm,internal,"Champion (Sarah K) leaving end of Oct. Replacement TBD, starts Nov. Risk to renewal."
+N041,call,customer,"So I went through the ROI calculator on your site, plugged our numbers in, came out at like 180k a year savings. Is that realistic?"
+N042,call,customer,"Oh, and the expense deadline moved to the 5th of the month, just so you know if people ask."
+N043,call,customer,"I'm out next week, it's half term, kids are off. Back on the 28th."
+N044,call,customer,"The trip to Toronto was fine, we had four people go for the client meeting, came back Thursday."
+N045,call,customer,"Um, your pricing went up 12% at renewal. Nobody told us. That's not great."
+N046,call,internal,Happy Friday! Any big plans for the weekend?
+N047,call,customer,"We're definitely not looking to change anything right now, it's working fine."
+N048,call,customer,"I'll be honest, the mobile app is the main thing people moan about. Uploading receipts is clunky."
+N049,field,internal,"new rail feature demo'd great today, customer literally said ""finally"""
+N050,call,customer,I'm not sure the cards make sense for us if the rebate is only 0.8%. We get 1.2 from our bank.
+N051,call,internal,"Sorry, you cut out there for a sec, could you repeat the last bit about the approvals?"
+N052,call,customer,"Our contract with you renews end of March, and procurement wants to start the review in January, so that's kind of the window."
+N053,call,customer,"We've got the offsite in Austin in April, 120 people, so I'm gonna be booking a block of rooms probably this week."
+N054,crm,internal,"Upsell to next tier discussed. She said ""honestly we've outgrown basic"". Sending tier comparison."
+N055,call,customer,"Booking lead time is our biggest problem, people book flights two days out and pay double."
+N056,field,internal,reminder: QBR decks due friday
+N057,field,internal,"travel freeze at Stark for Q4, their travel budget got slashed. usage will dip, not a churn signal per se"
+N058,crm,internal,"Says parent co is on Concur, pressure to align. May lose this one."
+N059,call,customer,We'll make a call after the board meeting on the 3rd. Can't commit to anything before that.
+N060,crm,internal,Customer downloaded travel policy template + used ROI calculator. Says calc showed ~180k/yr.
+N061,call,customer,We're seeing a lot of duplicate expenses where people submit the hotel folio and the card charge both.
+N062,field,internal,"fyi TripStack is doing 6mo free promos in EMEA, seen it twice now"
+N063,call,customer,"Hmm, I'm not sure I can justify the cost against what we save. Show me the ROI and maybe."
+N064,call,customer,"Budget's approved for next year, the line item for you is there. Just need the paperwork sorted by the 20th."
+N065,field,internal,"the benchmark report is getting forwarded around a lot, 3 customers mentioned it this wk"
+N066,call,customer,"Travel's pretty light for us, maybe 20 trips a month, mostly sales going to customer sites."
+N067,call,customer,"Did that webinar on duty of care last week, the one your team ran, really good actually. We had four people from our side on it."
+N068,call,internal,"So with our platform the per diems are calculated automatically by country and by day, you don't have to maintain the table yourself."
+N069,call,internal,"Ha, yeah, the weather in London has been rubbish this week, hasn't it."
+N070,call,customer,"We'd like to roll it out to the APAC entities as well. Sydney, Singapore and Tokyo, about 200 users total."
+N071,call,customer,"Our internal QBR is on the 9th, I'll present the travel savings numbers to the exec team there."
+N072,call,customer,"the per diem for India is way off, our ppl in Bangalore get like INR 6,000 a day which is double what they need"
+N073,call,customer,Can we get SSO set up? IT keeps asking. We use Okta.
+N074,call,customer,"Per diem for Germany is 28 euros for full days, 14 for partial... or is it the other way round. I'd have to check with payroll."
+N075,call,customer,I'd like to bring our IT lead on the next call to talk about the integration.
+N076,crm,internal,"Disco call w/ Mark (Dir Finance). ~400 travelers, NetSuite. Pain = receipts + month end close. Next step: demo 10/24."
+N077,call,internal,"I can send over the SOC 2 report today, and our security team can jump on a call with your CISO."
+N078,field,internal,"my read on Initech: they're not gonna sign before their board mtg on the 3rd, don't push"
+N079,call,customer,"Could you send me that case study, the one with the manufacturing company? I want to show it to my boss."
+N080,call,customer,"Honestly the price you quoted is about 30% higher than what we budgeted. I'm not saying no, but I can't take that number to our CFO as is."
+N081,call,customer,"Most of our travel is domestic, like 80%. Trains mostly in Europe, some flights between offices."
+N082,field,internal,who's at the Vegas conference next week? grabbing drinks tues
+N083,field,internal,anyone else seeing Ledgerly undercut on per-seat in mid-market? 3rd deal this month
+N084,field,internal,"Vandelay CFO new as of Monday, came from a Ledgerly shop. could go either way"
+N085,crm,internal,"Asked for security questionnaire, CISO strict. Sent to SecOps 10/12."
+N086,crm,internal,"Account seems happy, approvals flow working. Low risk imo."
+N087,call,internal,"Congrats on the funding round by the way, saw it on TechCrunch."
+N088,call,customer,"the AP team is three people and they're drowning, month end is a nightmare"
+N089,call,customer,We're in the middle of a hiring freeze so headcount's flat for the next two quarters.
+N090,call,customer,Yeah the snow storm last week meant half our people were stuck in Denver. Rebooking was chaos.
+N091,call,internal,"I'll be honest, I'm not the right person on contract terms, I'll bring in our deal desk."
+N092,crm,internal,"Lunch w/ the AP team, nice folks. Talked football mostly lol."
+N093,call,customer,"Hotel booking in the tool is fine, but UK rail doesn't really work, people just use Trainline."
+N094,crm,internal,Pricing pushback: they say we're 30% over budget. Asked for revised quote w/ reduced impl fee.
+N095,call,customer,"Yeah no, we looked at Spendwise two years ago and walked away, the reporting was weak."
+N096,field,internal,can someone send me the latest SOC 2? customer CISO asking
+N097,crm,internal,"Wants to add cards for sales team (~80 ppl). Expansion opp, loop in AM."
+N098,call,customer,"I'm leaving the company in December, so whoever takes over from me will be your contact. I'll make sure they get looped in."
+N099,call,customer,"Um, we hired like 60 people this quarter, mostly engineering, and getting them onto expenses has been fine actually."
+N100,call,customer,"Our controller just retired, so we're kinda between people on that role right now."

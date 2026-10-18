@@ -33,14 +33,14 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*Evidence they were a champion*\n>Leo Park manages travel and card spend across nine countries.\n<https://example.com/case-study/northwind|Source>"
+        "text": "*Evidence they were a champion*\n>Champion contact role on a won opportunity (closed 2024-03-01); last product use 2026-04-28\n<https://example.my.salesforce.com/lightning/r/Contact/003W002/view|Source>"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*Play*: Champion moved: intro play\n*Account*: Not a known customer; 501 to 1000 staff; industry unknown; fabrikam.com"
+        "text": "*Play*: Champion joined a prospect\n*Account*: Not a known customer; 501 to 1000 staff; industry unknown; fabrikam.com"
       }
     },
     {
@@ -48,18 +48,18 @@
       "elements": [
         {
           "type": "mrkdwn",
-          "text": "Same person: Confirmed (work history, headline) · Confirmed champion move; check: move is 159 days old (over 90). · rules v1.0"
+          "text": "Same person: Confirmed (work history, headline) · Confirmed champion move; check: move is 159 days old (over 90). · rules v1.2"
         }
       ]
     },
     {
       "type": "actions",
-      "block_id": "champion:r_f683b4c6f611",
+      "block_id": "champion:003W002",
       "elements": [
         {
           "type": "button",
           "action_id": "accept",
-          "value": "r_f683b4c6f611",
+          "value": "2026-10-18-770aff57:003W002",
           "text": {
             "type": "plain_text",
             "text": "Work this account"
@@ -69,16 +69,16 @@
         {
           "type": "button",
           "action_id": "snooze",
-          "value": "r_f683b4c6f611",
+          "value": "2026-10-18-770aff57:003W002",
           "text": {
             "type": "plain_text",
-            "text": "Snooze 30 days"
+            "text": "Snooze 1 week"
           }
         },
         {
           "type": "button",
           "action_id": "dismiss",
-          "value": "r_f683b4c6f611",
+          "value": "2026-10-18-770aff57:003W002",
           "text": {
             "type": "plain_text",
             "text": "Dismiss"
@@ -87,7 +87,7 @@
         {
           "type": "button",
           "action_id": "wrong_person",
-          "value": "r_f683b4c6f611",
+          "value": "2026-10-18-770aff57:003W002",
           "text": {
             "type": "plain_text",
             "text": "Wrong person"
@@ -97,7 +97,7 @@
         {
           "type": "button",
           "action_id": "wrong_play",
-          "value": "r_f683b4c6f611",
+          "value": "2026-10-18-770aff57:003W002",
           "text": {
             "type": "plain_text",
             "text": "Wrong play"

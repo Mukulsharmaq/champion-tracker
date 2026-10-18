@@ -1,0 +1,838 @@
+{
+  "requestId": "demo",
+  "records": {
+    "totalRecords": 18,
+    "currentPageSize": 18,
+    "currentPageNumber": 0
+  },
+  "calls": [
+    {
+      "metaData": {
+        "id": "1001",
+        "url": "https://gong.example.com/call?id=1001",
+        "title": "Globex Media <> weekly sync",
+        "started": "2026-10-06T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Hannah Cole",
+          "title": "VP Finance",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000004",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Globex Media"
+                },
+                {
+                  "name": "Website",
+                  "value": "globex.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1002",
+        "url": "https://gong.example.com/call?id=1002",
+        "title": "Initech <> weekly sync",
+        "started": "2026-10-07T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Raj Mehta",
+          "title": "Finance Director",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000005",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Initech"
+                },
+                {
+                  "name": "Website",
+                  "value": "initech.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1003",
+        "url": "https://gong.example.com/call?id=1003",
+        "title": "Woodgrove Bank <> weekly sync",
+        "started": "2026-10-08T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Sofia Lind",
+          "title": "Head of Travel",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000010",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Woodgrove Bank"
+                },
+                {
+                  "name": "Website",
+                  "value": "woodgrove.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1004",
+        "url": "https://gong.example.com/call?id=1004",
+        "title": "Tailspin Toys <> weekly sync",
+        "started": "2026-10-09T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Alex Kim",
+          "title": "Account Executive",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Omar Haddad",
+          "title": "CFO",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000008",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Tailspin Toys"
+                },
+                {
+                  "name": "Website",
+                  "value": "tailspin.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1005",
+        "url": "https://gong.example.com/call?id=1005",
+        "title": "Umbrella Health <> weekly sync",
+        "started": "2026-10-10T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Jordan Blake",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Lena Ortiz",
+          "title": "Controller",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000009",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Umbrella Health"
+                },
+                {
+                  "name": "Website",
+                  "value": "umbrella.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1101",
+        "url": "https://gong.example.com/call?id=1101",
+        "title": "Globex Media <> weekly sync",
+        "started": "2026-10-13T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Hannah Cole",
+          "title": "VP Finance",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000004",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Globex Media"
+                },
+                {
+                  "name": "Website",
+                  "value": "globex.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1102",
+        "url": "https://gong.example.com/call?id=1102",
+        "title": "Globex Media <> weekly sync",
+        "started": "2026-10-14T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Marcus Lee",
+          "title": "Procurement Manager",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000004",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Globex Media"
+                },
+                {
+                  "name": "Website",
+                  "value": "globex.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1103",
+        "url": "https://gong.example.com/call?id=1103",
+        "title": "Initech <> weekly sync",
+        "started": "2026-10-14T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Raj Mehta",
+          "title": "Finance Director",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000005",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Initech"
+                },
+                {
+                  "name": "Website",
+                  "value": "initech.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1104",
+        "url": "https://gong.example.com/call?id=1104",
+        "title": "Initech <> weekly sync",
+        "started": "2026-10-15T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Priya Nair",
+          "title": "Director of Business Services",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000005",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Initech"
+                },
+                {
+                  "name": "Website",
+                  "value": "initech.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1105",
+        "url": "https://gong.example.com/call?id=1105",
+        "title": "Woodgrove Bank <> weekly sync",
+        "started": "2026-10-15T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Sofia Lind",
+          "title": "Head of Travel",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000010",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Woodgrove Bank"
+                },
+                {
+                  "name": "Website",
+                  "value": "woodgrove.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1106",
+        "url": "https://gong.example.com/call?id=1106",
+        "title": "Tailspin Toys <> weekly sync",
+        "started": "2026-10-16T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Alex Kim",
+          "title": "Account Executive",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Omar Haddad",
+          "title": "CFO",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000008",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Tailspin Toys"
+                },
+                {
+                  "name": "Website",
+                  "value": "tailspin.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1107",
+        "url": "https://gong.example.com/call?id=1107",
+        "title": "Woodgrove Bank <> weekly sync",
+        "started": "2026-10-16T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Sofia Lind",
+          "title": "Head of Travel",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000010",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Woodgrove Bank"
+                },
+                {
+                  "name": "Website",
+                  "value": "woodgrove.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1108",
+        "url": "https://gong.example.com/call?id=1108",
+        "title": "Umbrella Health <> weekly sync",
+        "started": "2026-10-17T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Jordan Blake",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Lena Ortiz",
+          "title": "Controller",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000009",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Umbrella Health"
+                },
+                {
+                  "name": "Website",
+                  "value": "umbrella.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1109",
+        "url": "https://gong.example.com/call?id=1109",
+        "title": "Fabrikam <> weekly sync",
+        "started": "2026-10-17T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Taylor Brooks",
+          "title": "Account Executive",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Leo Park",
+          "title": "VP Procurement",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000003",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Fabrikam"
+                },
+                {
+                  "name": "Website",
+                  "value": "fabrikam.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1110",
+        "url": "https://gong.example.com/call?id=1110",
+        "title": "Northwind Foods <> weekly sync",
+        "started": "2026-10-14T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Jordan Blake",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Ivy Chen",
+          "title": "Travel Manager",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000007",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Northwind Foods"
+                },
+                {
+                  "name": "Website",
+                  "value": "northwind.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1111",
+        "url": "https://gong.example.com/call?id=1111",
+        "title": "Litware <> weekly sync",
+        "started": "2026-10-15T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Alex Kim",
+          "title": "Account Executive",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-3",
+          "name": "Jamie Fox",
+          "title": "Operations Lead",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000006",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Litware"
+                },
+                {
+                  "name": "Website",
+                  "value": "litware.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1112",
+        "url": "https://gong.example.com/call?id=1112",
+        "title": "Umbrella Health <> weekly sync",
+        "started": "2026-10-16T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Jordan Blake",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Lena Ortiz",
+          "title": "Controller",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000009",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Umbrella Health"
+                },
+                {
+                  "name": "Website",
+                  "value": "umbrella.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "id": "1113",
+        "url": "https://gong.example.com/call?id=1113",
+        "title": "Initech <> weekly sync",
+        "started": "2026-10-16T15:00:00Z",
+        "duration": 1800,
+        "system": "Zoom",
+        "direction": "Conference"
+      },
+      "parties": [
+        {
+          "speakerId": "sp-1",
+          "name": "Riley Shaw",
+          "title": "Account Manager",
+          "affiliation": "Internal"
+        },
+        {
+          "speakerId": "sp-2",
+          "name": "Raj Mehta",
+          "title": "Finance Director",
+          "affiliation": "External"
+        }
+      ],
+      "context": [
+        {
+          "system": "Salesforce",
+          "objects": [
+            {
+              "objectType": "Account",
+              "objectId": "001DEMO0000000005",
+              "fields": [
+                {
+                  "name": "Name",
+                  "value": "Initech"
+                },
+                {
+                  "name": "Website",
+                  "value": "initech.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
-"""Render a Block Kit card JSON as a Slack-like HTML preview (for the README image).
+"""Render a Block Kit message JSON (a champion card or the pipeline digest) as a Slack-like HTML preview.
   python3 scripts/render_card_preview.py examples/slack_card_card.json examples/slack_card_preview.html
+  python3 scripts/render_card_preview.py out/slack_digest.json examples/digest_preview.html "Pipeline Signals"
 Then screenshot it with any headless Chromium, e.g.:
   <chrome> --headless --screenshot=examples/slack_card_preview.png --window-size=720,700 file://$PWD/examples/slack_card_preview.html
 """
@@ -17,7 +18,7 @@ def md(text: str) -> str:
     return t.replace("\n", "<br>")
 
 
-def render(card: dict) -> str:
+def render(card: dict, app: str = "Champion Tracker") -> str:
     parts = []
     for b in card["blocks"]:
         if b["type"] == "header":
@@ -28,6 +29,8 @@ def render(card: dict) -> str:
             parts.append(f'<div class="sec">{md(b["text"]["text"])}</div>')
         elif b["type"] == "context":
             parts.append('<div class="ctx">' + " ".join(md(e["text"]) for e in b["elements"]) + "</div>")
+        elif b["type"] == "divider":
+            parts.append('<hr>')
         elif b["type"] == "actions":
             parts.append('<div class="btns">' + "".join(
                 f'<span class="btn {e.get("style", "")}">{html.escape(e["text"]["text"])}</span>' for e in b["elements"]) + "</div>")
@@ -40,10 +43,11 @@ padding:1px 4px;border-radius:3px;margin-left:4px;color:#555}} .hdr{{font-weight
 .ctx{{color:#616061;font-size:12.5px;margin:8px 0}} a{{color:#1264a3;text-decoration:none}}
 .btns{{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}} .btn{{border:1px solid #ccc;border-radius:4px;padding:5px 12px;font-weight:700;font-size:13px}}
 .primary{{background:#007a5a;color:#fff;border-color:#007a5a}} .danger{{color:#e01e5a;border-color:#e01e5a}}
-</style><div class="msg"><div class="av">CT</div><div><div><span class="who">Champion Tracker</span><span class="app">APP</span></div>
+hr{{border:0;border-top:1px solid #e8e8e8;margin:14px 0}}
+</style><div class="msg"><div class="av">{''.join(w[0] for w in app.split()[:2])}</div><div><div><span class="who">{html.escape(app)}</span><span class="app">APP</span></div>
 {''.join(parts)}</div></div>"""
 
 
 if __name__ == "__main__":
     card = json.load(open(sys.argv[1], encoding="utf-8"))
-    open(sys.argv[2], "w", encoding="utf-8").write(render(card))
+    open(sys.argv[2], "w", encoding="utf-8").write(render(card, *(sys.argv[3:4] or ["Champion Tracker"])))

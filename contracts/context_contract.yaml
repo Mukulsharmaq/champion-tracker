@@ -1,36 +1,46 @@
 # The decision this system must get right, and the contract it has to meet before a seller sees anything.
-# Structure: evidence, authority, freshness, confidence, stop rule, feedback.
+# Structure: evidence, authority, freshness, lookup, confidence, stop rule, feedback.
+# Rules 1.2. src/champion_tracker/config.py mirrors the numbers below; tests/test_rules.py checks that they agree.
 
 decision: "A champion moved. Should a seller work the new account now, and with which approved play?"
 
 evidence:          # facts required before any recommendation
   - "Champion evidence: one verbatim sentence or record showing influence (see champion_definition.yaml), with its link"
-  - "Identity: a profile tied to the old company (current employer, work history, or headline such as 'ex-Acme')"
-  - "Move: a new current employer that is a real job (not a board seat, side gig or freelance role)"
+  - "Identity: a profile tied to the old company (current employer, work history, or headline such as 'ex-Acme'). With an Evidence date on the seed row, a work-history tie counts only if that job overlaps it (grace: evidence_grace_days after the job ended)"
+  - "Move: a new current employer that is a real job (not a board seat, advisor seat, side gig or freelance role). Side seats are judged on the title (board member/chair, advisory board, advisor with nothing before it that makes it a job, trustee, volunteer, mentor, ambassador). Trustee, volunteer, mentor and ambassador count only as the role itself: 'Volunteer Coordinator Manager' and 'Brand Ambassador Program Manager' are jobs. Self-employment only when the company or title IS self-employment ('Self-employed', 'Freelance', 'Independent consultant'), never a company that contains the word ('Independent Bank'). A fractional or interim seat is a real move that goes to Review"
   - "New account: resolved by domain (never by name alone)"
+  - "Same name: first names may be nicknames (Bill = William), family-name-first order and honorifics are ignored, accents and apostrophes are folded ('Pérez' = 'Perez'), compound surnames and surname particles are kept whole, and the seed's Name variants (maiden / married names) count; non-Latin names match on the exact full name"
 
 authority:         # which source wins when sources disagree
   identity: "Work history beats headline; headline beats a name-only match. A name-only match never confirms."
-  current_employer: "The open experience entry wins. If the profile's latest job has an end date, the current employer is unknown."
-  company: "Domain beats name. Parent/acquired-company aliases are listed in config, not guessed."
+  current_employer: "The open experience entry wins. If the profile's latest job has an end date, the current employer is unknown. A profile that still names the customer as the current employer while every customer job on it has ended: current employer unknown (Hold), checked before 'still at the customer'."
+  company: "Domain beats name. Names match only after removing legal suffixes and trailing geography ('Acme USA, LLC' = 'Acme North America Inc'); geography is kept when removing it would leave a generic or short head ('Air Canada' != 'Air India', 'Union Pacific' != 'Union'); 'Delta' != 'Delta Dental', 'Bank of America' != 'US Bank'. A customer's domain is learned only from jobs whose company name IS the customer (or a listed alias); a website merely named for it (ryder.com for Ryder) counts only when it is the customer's own known domain, or when nothing else gives the customer a domain. Parent/acquired-company aliases are listed in config, not guessed."
+  product_activity: "Warehouse product activity at the old customer more than activity_after_leaving_grace_days after the profile's leaving date means the records disagree: Hold. Activity inside that window is normal (a last expense report filed after the last day)."
   stale_fields: "Never use fields that can lag a move (e.g. an org/email domain that still shows the old employer)."
 
 freshness:         # how old a signal can be
   move_recent_days: 90            # 'a move from three months ago' is not fresh
   move_age_counts_from: "joining the new company (the 'why now'), not leaving the old one"
   profile_stale_days: 365         # a profile older than this cannot overrule the champion evidence
+  evidence_grace_days: 365        # a customer job still ties identity this long after it ended (stories publish late)
+  activity_after_leaving_grace_days: 60   # product use this long after leaving is normal and does not hold the row
+  month_only_dates: "a start known only to the month (or year) is aged from its most recent possible day; fresh only because of that rounding -> Review"
+
+lookup:
+  search_depth: 50                # name + company first; for misses, every same-name profile this deep. A search that returns exactly this many with nobody tied was cut off: every same-name profile is then pulled with its work history and tied locally (people APIs filter on the current employer, which a mover has left). Nobody tied after a finished full pull -> "A full search of N same-name profiles found none tied"; a pull that did not run or did not finish keeps "Search hit the 50-result cap". Never "N people share this name" for a cut-off list
 
 confidence:        # what turns research into a recommendation
-  Confirmed: "Exactly one same-name profile tied to the old company (duplicates of one person merged)"
+  Confirmed: "Exactly one same-name profile tied to the old company (duplicates of one person merged), or the profile a review owner confirmed"
   Likely: "The only same-name profile on file, but nothing ties it to the old company"
   Hold: "Several same-name profiles and none tied / no profile / tied profiles disagree / records contradict"
 
 stop_rule:         # what requires a human
-  hold: "Identity Hold or Likely, current employer unknown, rename/acquisition, records disagree"
-  review: "Confirmed champion move, but older than 90 days, new company small or unresolved, or old job still open"
+  hold: "Identity Hold or Likely, same-name search cut off at search_depth with nobody tied, a full same-name pull with nobody tied, current employer unknown (including a profile that still names the customer after that job ended), rename/acquisition, records disagree (stale profile, product activity more than activity_after_leaving_grace_days after leaving), start date in the future, evidence sentence or link missing"
+  review: "Confirmed champion move, but older than 90 days (or fresh only because the start is known only to the month), new company small or of unknown size or without a domain, old job still open, or a fractional or interim role"
   card: "Confirmed champion, real move within 90 days, new account resolved and not small"
 
-feedback:          # what happens when the seller corrects it
-  actions: ["accept", "snooze", "dismiss", "wrong_person", "wrong_play"]
-  write_back: "Every action is logged with the row id, the rule version and the reason; corrections update the record of truth (CRM)"
-  learning: "wrong_person / wrong_play rows become new test cases (save the false positives, sample weekly)"
+feedback:          # what happens when a person acts on or corrects it
+  actions: ["do_play", "snooze", "not_now", "wrong_account", "wrong_play", "wrong_person", "confirm_match", "reject_match", "paste_profile", "unresolvable", "qa_ok", "qa_wrong"]
+  permissions: "Account-card actions count only from the card owner; identity actions (This is them, None of these, Paste the right profile, Can't resolve, Wrong person) and the QA labels only from the review owner. Anyone else's click is kept as a comment and changes nothing."
+  write_back: "Every action is logged with the row or card id, the rule or surface version and the note; allowed actions update the record of truth (CRM) by record id"
+  learning: "wrong_person / wrong_play / wrong_account rows and QA 'Wrong' labels become new test cases with the inputs behind them; a correction that names the right play or decision passes only when the rules give that answer"

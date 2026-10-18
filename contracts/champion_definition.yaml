@@ -1,8 +1,9 @@
 # What counts as a champion: the definition is versioned here, not buried in a prompt.
 # Source of truth in production: the warehouse (customer + product history). See sql/champion_definition.sql.
-# Public demo stand-in: named people in published customer case studies, with the sentence that shows what they did.
+# Public stand-in: named people in published customer case studies, with the sentence that shows what they did.
+# Rules 1.2. The evidence tags below are the ones src/champion_tracker/config.py reads; tests/test_rules.py checks them.
 
-version: 1
+version: 2
 levels:
   champion:
     meaning: "Influenced the decision or owns the program. Worth a play when they move."
@@ -11,7 +12,7 @@ levels:
       chose: "Picked, recommended, or was part of choosing the product"
       ran_rfp: "Ran the RFP"
       rolled_out: "Implemented, launched or onboarded it"
-      owns_program: "The text says they run, manage or oversee the program. In the public demo, a program-owner title in the evidence (head of travel, T&E lead) was also accepted; that is weaker evidence (see evidence_strength)."
+      owns_program: "A verbatim sentence shows they run, own, manage or oversee the program ('runs the travel program across 14 offices', 'is the primary admin'). Never a title alone: 'head of travel' next to a quote is quoted, not owns_program."
       business_case: "Ran the analysis or ROI case for switching"
       deployed_elsewhere: "Has deployed the product at other companies before"
   user:
@@ -22,15 +23,20 @@ levels:
       none: "Named only"
 
 evidence_strength:
-  strong: "A verb about the decision or the program (chose, led the search, rolled out, runs the program, ran the analysis)"
-  weak: "Only a program-owner title next to a quote. Production should confirm with contact roles or admin usage (sql/champion_definition.sql)."
+  strong: "A verb about the decision (chose, led the search, ran the RFP, rolled out, ran the analysis)"
+  weak: "A verb about running the program but not about the decision (runs, manages, oversees, is the admin). Still a champion on the public stand-in; in production the warehouse decides with contact roles and product use (sql/champion_definition.sql)."
 
 rules:
-  - "A title alone never makes a champion: the evidence sentence decides, and title-only ownership is marked weak."
+  - "A title alone never makes a champion, for any tag (owns_program included): the evidence sentence decides. A title next to a quote is quoted (user)."
+  - "Who applies it: the extraction step tags each person from the sentence; rules.py trusts the tag, and holds any champion move whose sentence or source link is missing."
   - "Every champion row carries one verbatim evidence sentence and its source link."
-  - "Someone who only sat on a call is a user, not a champion (production: require usage or decision evidence)."
+  - "Someone who only sat on a call is a user, not a champion (production: a won-deal role plus product use)."
+  - "Seed rows tagged under the earlier wording (version 1, when a title next to a quote could count as owns_program) need re-tagging under this version before their level is trusted."
 
-production_signals:   # what the warehouse version adds on top of the public stand-in
-  - "Opportunity contact role = decision maker / economic buyer / champion on a closed-won deal"
-  - "Product usage: admin seat or active usage in the last N days (exclude test and internal workspaces)"
-  - "Call evidence: spoke positively on a recorded call (with a link to the moment)"
+production_signals:   # what the warehouse version decides (sql/champion_definition.sql)
+  - "Champion: a won-deal contact role (decision maker, champion, economic buyer, evaluator) on a deal at the contact's own account, closed in the last 3 years, plus product use in the last 365 days"
+  - "Also a champion: a product admin active in the last 180 days who also holds such a role"
+  - "User: an admin seat alone, or a won-deal role with no product use in the last 365 days ('role only, no product use')"
+  - "Product use never counts from test workspaces or internal users; lost deals never count"
+  - "Product use up to 60 days after the contact left is normal (a last expense report) and does not hold the row; later use means the records disagree (context_contract.yaml -> activity_after_leaving_grace_days)"
+  - "Call evidence is not part of the definition: calls feed the GTM brief, not the champion level"

@@ -6,3 +6,8 @@ data/
 __pycache__/
 *.pyc
 .DS_Store
+!.env.example
+# filled-in config: owner names and Slack ids
+config.json
+# test data the suites need ("data/" above would ignore it)
+!tests/data/

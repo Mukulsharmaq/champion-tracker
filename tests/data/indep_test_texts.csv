@@ -1,0 +1,101 @@
+id,source,side,text
+N101,crm,internal,"Spoke w/ Priya (new finance contact, took over from Tom). Walked through reporting."
+N102,call,internal,"Our UK rail booking covers all the main operators, and you get split ticketing too."
+N103,call,internal,How was the trip back from Denver? I saw the storms on the news.
+N104,call,customer,"We approve anything over 500 dollars at manager level, over 2k it goes to the VP. That's been the rule since forever."
+N105,call,internal,What does a typical month look like for the AP team right now?
+N106,call,customer,"Our new CFO started Monday. Came from a company that used Ledgerly, so... we'll see."
+N107,crm,internal,"Offsite planning, 120 ppl Austin in April. Just context, they book via us already."
+N108,crm,internal,"12% price increase at renewal came as a surprise, he's annoyed. Need to explain the uplift."
+N109,call,customer,"We've been running Spendwise for expenses and you for travel, and honestly I'd rather have it all in one place."
+N110,call,customer,"We've got offices in Manchester, Leeds and now Glasgow, plus everybody remote."
+N111,crm,internal,Travel spend last yr ~2.4M per customer. Good sizing for card program.
+N112,call,customer,"Hmm, the implementation fee is what's hurting. Twenty-five k up front is a lot for us right now."
+N113,call,customer,"I've been told to get three quotes. It's a procurement thing, nothing personal."
+N114,call,customer,"So the trip to Singapore got moved to the 14th, which means the visa stuff is now super tight."
+N115,call,customer,"Our fiscal year starts in July, so travel budgets get locked in May."
+N116,call,customer,"The cancellation fee on that hotel was brutal, like a full night at 340 quid."
+N117,call,customer,"I've got a whole stack of trip approvals sitting in my queue from while I was out, like 40 of them."
+N118,call,customer,"Our travel budget this year is around 800k but we'll overshoot, we always do."
+N119,call,customer,"We had a guy expense a 900 dollar dinner last week. Nine hundred. For four people. So yeah, policy enforcement is on my mind."
+N120,field,internal,"gut feel: Wayne Ent is going to expand to APAC, they keep asking about multi-currency"
+N121,call,customer,"Out of the 600 trips last quarter, maybe 70 were booked outside the system."
+N122,crm,internal,"Rescheduled to next wk, she's on PTO."
+N123,call,internal,Who else would need to sign off on this on your side?
+N124,crm,internal,"Legal redlines on sec 9 liability cap, want 12mo fees. Sent to our legal."
+N125,call,customer,Our approval chain is a mess. Some things go to three people. Some go to nobody.
+N126,crm,internal,"Merger closing Feb, +800 employees. Big expansion potential if we keep the account."
+N127,call,customer,The VP of Finance wants to join the next call. She hasn't seen any of this yet.
+N128,call,customer,"VAT reclaim on the UK side, we're probably leaving 40, 50 grand on the table every year because nobody submits proper invoices."
+N129,call,customer,"Policy says economy for anything under six hours, business over six. Nobody's challenged that in years."
+N130,call,customer,Can we do a POC with just the London team first? Like 50 people for 60 days?
+N131,call,customer,"Yeah so our hotel cap in London is still £180 a night, which honestly nobody can find anything under these days, so people just book over and we approve it after."
+N132,call,customer,"We're looking at Ledgerly as well, just so you know. Their demo was last Thursday."
+N133,call,internal,"We can do a 30-day pilot with one team at no charge, and if it works we just switch everyone else on."
+N134,call,customer,Did you see the email I sent about the GL codes? We need them mapped by cost center.
+N135,call,customer,It's a no from me on the auto-renewal clause. I need 90 days notice at least.
+N136,field,internal,"Globex renewal moved up to Feb, procurement wants three quotes. not panicking yet"
+N137,call,customer,"The guy in Frankfurt, Jens, he books everything himself through Lufthansa directly. Old habits."
+N138,call,customer,"Spendwise offered us six months free if we switch. Not gonna lie, that's tempting."
+N139,call,customer,"Airfare to New York from Chicago, we're seeing 600, 700 round trip now. Used to be under 400."
+N140,field,internal,anyone know if we support per diem for India properly yet? customer says rates are off
+N141,call,customer,The rate at the Hilton downtown went up to 289 plus tax. We used to get 199 negotiated.
+N142,field,internal,"pricing push-back is everywhere this quarter, impl fee is the sticking point every time"
+N143,call,customer,"So expense reports are supposed to be in within 30 days, that's our policy, but people take like 60."
+N144,call,customer,Can we add another 100 seats before the end of the year? We're onboarding the acquired team.
+N145,call,customer,"We use Concur at the parent company, and they want us to align. So I might be overruled on this."
+N146,field,internal,coffee machine on 3rd floor broken again fyi
+N147,crm,internal,"Customer said they're evaluating Ledgerly in parallel, demo w/ them last wk. Need to diff on native expense + VAT."
+N148,call,customer,Would you be able to do a session for our travellers? Like a quick training thing? Adoption's been slow in sales.
+N149,call,customer,"We've got two people in finance who'd actually use the reporting, so I don't know if we need the full analytics module."
+N150,call,internal,"So the SSO piece, we support Okta, Azure AD, Google, it's usually like a two day setup."
+N151,call,customer,"Honestly we're happy with it, definately. The approvals flow is way faster than the old spreadsheet thing."
+N152,call,customer,"Um, we've got about 340 people travelling regularly, maybe 400 if you count the field techs who do like one trip a quarter."
+N153,call,internal,"For VAT reclaim we partner with a provider that handles the submission, and you typically get around 70% of eligible VAT back."
+N154,call,customer,"Our CEO saw your post on LinkedIn about the card rewards thing and asked me about it, so... here we are."
+N155,call,customer,"Total travel spend last year was about 2.4 million, give or take, and maybe another 600k on cards."
+N156,call,internal,"I'd love to understand what Ledgerly showed you, just so I can make sure we're comparing apples to apples."
+N157,call,customer,"Our legal team flagged the liability clause in section 9, they want it capped at 12 months of fees."
+N158,crm,internal,New CFO (ex-Ledgerly customer). Need intro asap. Possible threat.
+N159,call,internal,"Totally hear you on price. Let me see what I can do on the implementation fee, no promises, but I'll take it back to my manager."
+N160,call,customer,"We need your cards to work alongside our existing Amex program somehow, or it's a problem."
+N161,call,internal,"Yeah, I know a lot of folks have looked at TripStack. The main difference is we do the expense side natively, not through a partner."
+N162,call,customer,Could we add the corporate cards for the sales team too? Right now it's just the execs and it's working pretty well.
+N163,crm,internal,TripStack quote came in lower per customer. They want us to match or come close.
+N164,call,customer,"I'm thinking of moving the whole engineering org onto your cards, that's another 150 cards if it works."
+N165,field,internal,"stack ranking our Q4 pipe on thurs, pls update stages before"
+N166,call,customer,"Sarah's leaving at the end of the month, she was the one who pushed for this whole thing internally. Her replacement starts in, I think, November?"
+N167,call,customer,"We're opening an office in Lisbon in Q2, about 25 people to start, mostly customer support."
+N168,call,customer,"TripStack came in way cheaper, like significantly. I'd need you to get closer to that if we're going to keep talking."
+N169,call,internal,"We integrate natively with NetSuite, Sage Intacct, Xero and SAP, with S/4 through a connector."
+N170,call,customer,"Receipts are the killer. Half the team takes a photo, the other half just loses them and finance chases them for weeks, and we never recieve half of them anyway."
+N171,crm,internal,"No 3yr term, 1yr max w/ out clause. Flagged to deal desk."
+N172,call,customer,"We're merging with another company, it's not public yet, but it closes in February and they've got about 800 employees."
+N173,crm,internal,"Think they might be shopping around, tone was off on the call. No hard evidence."
+N174,field,internal,"Umbrella merger closing Feb, +800 heads. AM team should be on this"
+N175,crm,internal,Customer said audit found 8% of expenses w/o receipts. Want to close the finding by Q1.
+N176,field,internal,"customer in Dublin onboarded 30 ppl smoothly, nice one CS"
+N177,call,customer,"Spend-wise we're roughly flat on travel versus last year. Hotels up, air down, it kind of evens out."
+N178,crm,internal,Asked about SSO w/ Okta. Sent docs.
+N179,call,customer,"I read that benchmark report you guys sent over, the one on hotel rate inflation. Forwarded it to our CFO actually, she found it really useful."
+N180,crm,internal,"Mentioned Spendwise offer, 6 mo free. Not sure how serious."
+N181,field,internal,"just got off w/ Northwind - they want to roll cards out to all of eng, +150. big if it lands"
+N182,call,internal,"So if I'm hearing you right, the bigger issue isn't the tool, it's people booking outside of it."
+N183,call,customer,"Our ERP is NetSuite, we're migrating to SAP sometime next year, maybe Q3, it keeps slipping."
+N184,call,customer,"Uh, so we've got a stack of unreconciled card transactions from August, maybe 300 of them, and the auditors are in next month."
+N185,call,customer,"So the Berlin office all expense in euros and then finance converts at month end, at whatever rate."
+N186,call,internal,"Our cards give 1.1% cashback on everything, and there's no FX fee on foreign transactions."
+N187,call,customer,"So the decision's gonna be made by the CFO and the head of procurement, probably by the 15th of December."
+N188,field,internal,"Contoso said hard no on auto-renew, wants 90d notice. deal desk aware"
+N189,crm,internal,Customer attended duty of care webinar w/ 4 colleagues. Good engagement.
+N190,crm,internal,"POC request: London team, 50 users, 60 days. Need SE."
+N191,call,internal,"Our mobile app does OCR on receipts, so you just snap it and it fills in the merchant, amount and VAT."
+N192,call,internal,"Let's put something in for next Tuesday, same time? I'll bring our solutions engineer."
+N193,call,customer,"Meal limit is 75 a day domestic, 100 international. People complain about it all the time."
+N194,call,customer,"The flight got cancelled and he ended up in a hotel near the airport, which, fine, but he booked it outside the tool."
+N195,crm,internal,"My guess is they're not really buying this year, they keep pushing the next meeting."
+N196,call,internal,"We just launched a travel analytics dashboard, it shows booking lead time, out-of-policy spend, all of that by department."
+N197,field,internal,"LinkedIn post on card rewards got shared by a couple of customer execs, marketing pls note"
+N198,call,internal,Did you get a chance to look at the proposal I sent Tuesday?
+N199,crm,internal,"Left vm, no answer. Try again Thurs."
+N200,call,internal,"Just to recap, you're looking at about 350 travellers, two entities, and NetSuite on the back end, right?"
