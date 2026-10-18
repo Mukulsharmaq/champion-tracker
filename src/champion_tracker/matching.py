@@ -329,7 +329,7 @@ def name_matches(candidate: dict, first: str, last: str, variants: Optional[Iter
     """Exact last name (accent/case-insensitive, whole token; apostrophes, hyphens and spaces ignored; a compound
     surname matches its first surname) + first name equal, a 3+ letter prefix either way, a listed nickname or a
     transliteration (Mohammed = Muhammad). Honorifics (Dr, Ms, Prof) and suffixes (Jr, PhD) are ignored, and
-    family-name-first order ('Yang Gary' = Gary Yang) matches. variants: alternative full names (maiden / married
+    family-name-first order ('Zhao Kevin' = Kevin Zhao) matches. variants: alternative full names (maiden / married
     names) or, when one word, alternative first names. Non-Latin names match on the exact full name.
     A substring hit like 'Jo de Vries' -> 'Joanna Devrieson' still fails."""
     full_name = candidate.get("full_name") or f"{candidate.get('first_name', '')} {candidate.get('last_name', '')}"
@@ -342,7 +342,7 @@ def name_matches(candidate: dict, first: str, last: str, variants: Optional[Iter
             seeds.append((vt, l))
         elif len(vt) > 1:
             seeds.append((vt[:1], vt[-1:]))
-    orders = [full] + ([full[::-1]] if len(full) == 2 else [])   # 'Yang Gary' = Gary Yang (two-word names only)
+    orders = [full] + ([full[::-1]] if len(full) == 2 else [])   # 'Zhao Kevin' = Kevin Zhao (two-word names only)
     if any(_match_tokens(o, sf, sl) for o in orders for sf, sl in seeds):
         return True
     # Non-Latin script (or anything the Latin tokens cannot see): exact full name, either order.

@@ -393,10 +393,10 @@ def test_evidence_date_rules_out_a_namesakes_old_internship():
 def test_nicknames_reversed_order_honorifics_variants_and_non_latin_names():
     from champion_tracker.matching import name_matches
     yes = [("Bill Smith", "William", "Smith", None), ("William Smith", "Bill", "Smith", None), ("Bob Jones", "Robert", "Jones", None),
-           ("Yang Gary", "Gary", "Yang", None), ("Dr. Gary Yang", "Gary", "Yang", None), ("Mrs Jane Doe", "Jane", "Doe", None),
+           ("Zhao Kevin", "Kevin", "Zhao", None), ("Dr. Kevin Zhao", "Kevin", "Zhao", None), ("Mrs Jane Doe", "Jane", "Doe", None),
            ("Prof Jane Doe, Ph.D.", "Jane", "Doe", None), ("Jane Smith", "Jane", "Doe", ["Jane Smith"]),
-           ("Bob Church", "Robert", "Church", ["Bob"]), ("王小明", "小明", "王", None), ("Mike McGee", "Michael", "McGee", None)]
-    no = [("Christina Clifford", "Christopher", "Clifford", None), ("Jane Smith", "Jane", "Doe", None), ("王小红", "小明", "王", None),
+           ("Bob Fenwick", "Robert", "Fenwick", ["Bob"]), ("王小明", "小明", "王", None), ("Mike McAllister", "Michael", "McAllister", None)]
+    no = [("Christina Hale", "Christopher", "Hale", None), ("Jane Smith", "Jane", "Doe", None), ("王小红", "小明", "王", None),
           ("Dr. K. Jeyaprakash, Ph.D.", "K.", "D.", None), ("Joanna Devrieson", "Jo", "de Vries", None)]
     for full, f, l, v in yes:
         assert name_matches({"full_name": full}, f, l, v), (full, f, l, v)
@@ -565,9 +565,9 @@ def test_compound_surnames_apostrophes_spaces_accents_and_transliterations():
            ("Juan Perez Rodriguez", "Juan", "Pérez"), ("Mary Smith", "Mary", "Smith-Jones"), ("Sean OBrien", "Sean", "O'Brien"),
            ("Sean O'Brien", "Sean", "OBrien"), ("Ian Mc Donald", "Ian", "McDonald"), ("Ian McDonald", "Ian", "Mc Donald"),
            ("José Núñez", "Jose", "Nunez"), ("Søren Kierkegaard", "Soren", "Kierkegaard"), ("Łukasz Wróbel", "Lukasz", "Wrobel"),
-           ("Mohammed Al-Rashid", "Mohamed", "Al Rashid"), ("Muhammad Khan", "Mohammad", "Khan"), ("Mohamed Ali", "Muhammed", "Ali"),
+           ("Mohammed Al-Rashid", "Mohamed", "Al Rashid"), ("Muhammad Khan", "Mohammad", "Khan"), ("Mohamed Karim", "Muhammed", "Karim"),
            ("Gabriel García", "Gabriel", "García Márquez")]
-    no = [("Maria De", "Maria", "De la Cruz"), ("Mohammed Ali", "Ahmed", "Ali"), ("Christina Clifford", "Christopher", "Clifford"),
+    no = [("Maria De", "Maria", "De la Cruz"), ("Mohammed Karim", "Ahmed", "Karim"), ("Christina Hale", "Christopher", "Hale"),
           ("Joanna Devrieson", "Jo", "de Vries"), ("Juan Rodriguez", "Juan", "Perez"), ("Sean Bryan", "Sean", "O'Brien")]
     for full, f, l in yes:
         assert name_matches({"full_name": full}, f, l), (full, f, l)
