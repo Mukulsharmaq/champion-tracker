@@ -1,0 +1,36 @@
+# The decision this system must get right, and the contract it has to meet before a seller sees anything.
+# Structure: evidence, authority, freshness, confidence, stop rule, feedback.
+
+decision: "A champion moved. Should a seller work the new account now, and with which approved play?"
+
+evidence:          # facts required before any recommendation
+  - "Champion evidence: one verbatim sentence or record showing influence (see champion_definition.yaml), with its link"
+  - "Identity: a profile tied to the old company (current employer, work history, or headline such as 'ex-Acme')"
+  - "Move: a new current employer that is a real job (not a board seat, side gig or freelance role)"
+  - "New account: resolved by domain (never by name alone)"
+
+authority:         # which source wins when sources disagree
+  identity: "Work history beats headline; headline beats a name-only match. A name-only match never confirms."
+  current_employer: "The open experience entry wins. If the profile's latest job has an end date, the current employer is unknown."
+  company: "Domain beats name. Parent/acquired-company aliases are listed in config, not guessed."
+  stale_fields: "Never use fields that can lag a move (e.g. an org/email domain that still shows the old employer)."
+
+freshness:         # how old a signal can be
+  move_recent_days: 90            # 'a move from three months ago' is not fresh
+  move_age_counts_from: "joining the new company (the 'why now'), not leaving the old one"
+  profile_stale_days: 365         # a profile older than this cannot overrule the champion evidence
+
+confidence:        # what turns research into a recommendation
+  Confirmed: "Exactly one same-name profile tied to the old company (duplicates of one person merged)"
+  Likely: "The only same-name profile on file, but nothing ties it to the old company"
+  Hold: "Several same-name profiles and none tied / no profile / tied profiles disagree / records contradict"
+
+stop_rule:         # what requires a human
+  hold: "Identity Hold or Likely, current employer unknown, rename/acquisition, records disagree"
+  review: "Confirmed champion move, but older than 90 days, new company small or unresolved, or old job still open"
+  card: "Confirmed champion, real move within 90 days, new account resolved and not small"
+
+feedback:          # what happens when the seller corrects it
+  actions: ["accept", "snooze", "dismiss", "wrong_person", "wrong_play"]
+  write_back: "Every action is logged with the row id, the rule version and the reason; corrections update the record of truth (CRM)"
+  learning: "wrong_person / wrong_play rows become new test cases (save the false positives, sample weekly)"

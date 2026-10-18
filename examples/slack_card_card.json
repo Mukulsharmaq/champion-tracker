@@ -1,0 +1,109 @@
+{
+  "text": "Champion moved: Ben Ortiz",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Champion moved: Ben Ortiz"
+      }
+    },
+    {
+      "type": "section",
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*Who*\nBen Ortiz"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Now*\nDirector of Facilities @ Northwind Foods"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Was*\nFacilities Director, Globex Media"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Why now*\nJoined 2026-09-20 (28 days ago)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Evidence they were a champion*\n>Ben Ortiz led the rollout to all twelve offices.\n<https://example.com/case-study/globex|Source>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Play*: Champion moved to an existing customer: expansion play\n*Account*: Existing customer (Northwind Foods · northwind.com)"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "Same person: Confirmed (work history, headline) · Confirmed champion, recent move, account resolved. · rules v1.0"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "block_id": "champion:r_a68d2bf6b8b3",
+      "elements": [
+        {
+          "type": "button",
+          "action_id": "accept",
+          "value": "r_a68d2bf6b8b3",
+          "text": {
+            "type": "plain_text",
+            "text": "Work this account"
+          },
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "action_id": "snooze",
+          "value": "r_a68d2bf6b8b3",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 30 days"
+          }
+        },
+        {
+          "type": "button",
+          "action_id": "dismiss",
+          "value": "r_a68d2bf6b8b3",
+          "text": {
+            "type": "plain_text",
+            "text": "Dismiss"
+          }
+        },
+        {
+          "type": "button",
+          "action_id": "wrong_person",
+          "value": "r_a68d2bf6b8b3",
+          "text": {
+            "type": "plain_text",
+            "text": "Wrong person"
+          },
+          "style": "danger"
+        },
+        {
+          "type": "button",
+          "action_id": "wrong_play",
+          "value": "r_a68d2bf6b8b3",
+          "text": {
+            "type": "plain_text",
+            "text": "Wrong play"
+          }
+        }
+      ]
+    }
+  ]
+}

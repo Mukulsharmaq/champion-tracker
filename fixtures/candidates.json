@@ -1,0 +1,366 @@
+{
+ "_note": "Synthetic. Every person and company here is invented. Each record mirrors a failure type seen in the real 195-person run (see docs/eval.md).",
+ "aliases": {
+  "Stark Freight": [
+   "Tony Holdings"
+  ]
+ },
+ "known_customer_domains": [],
+ "lookups": [
+  {
+   "name": "Dana Reyes",
+   "slug": "acme",
+   "customer": "Acme Robotics",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Dana Reyes",
+     "current_title": "Director, Global Travel",
+     "current_company_name": "Contoso Systems",
+     "current_company_website": "contoso.com",
+     "headline": "Director, Global Travel | ex-Acme",
+     "employee_count_range": "1001 to 5000",
+     "main_industry": "Software",
+     "updated_at": "2026-10-01",
+     "linkedin_url": "https://www.linkedin.com/in/example-dana",
+     "experience": [
+      {
+       "company": "Contoso Systems",
+       "website": "contoso.com",
+       "start": "2026-09-01",
+       "end": null
+      },
+      {
+       "company": "Acme Robotics",
+       "website": "acme.com",
+       "start": "2019-03-01",
+       "end": "2026-08-31"
+      }
+     ]
+    },
+    {
+     "full_name": "Dana Reyes",
+     "current_title": "Nurse",
+     "current_company_name": "City Hospital",
+     "current_company_website": "cityhospital.org",
+     "experience": [
+      {
+       "company": "City Hospital",
+       "start": "2015-01-01",
+       "end": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Leo Park",
+   "slug": "northwind",
+   "customer": "Northwind Foods",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Leo Park",
+     "current_title": "VP Procurement",
+     "current_company_name": "Fabrikam",
+     "current_company_website": "fabrikam.com",
+     "headline": "VP Procurement | ex-Northwind",
+     "employee_count_range": "501 to 1000",
+     "updated_at": "2026-08-10",
+     "org_domain": "northwind.com",
+     "experience": [
+      {
+       "company": "Fabrikam",
+       "website": "fabrikam.com",
+       "start": "2026-05-12",
+       "end": null
+      },
+      {
+       "company": "Northwind Foods",
+       "website": "northwind.com",
+       "start": "2020-03-01",
+       "end": "2026-05-01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sam Lee",
+   "slug": "globex",
+   "customer": "Globex Media",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Sam Lee",
+     "current_title": "Chef",
+     "current_company_name": "Bistro 9",
+     "experience": []
+    },
+    {
+     "full_name": "Sam Lee",
+     "current_title": "Engineer",
+     "current_company_name": "Massive Dynamic",
+     "experience": []
+    },
+    {
+     "full_name": "Sam Lee",
+     "current_title": "Teacher",
+     "current_company_name": "Springfield High",
+     "experience": []
+    },
+    {
+     "full_name": "Samuel Lee",
+     "current_title": "VP Finance",
+     "current_company_name": "Soylent",
+     "experience": []
+    }
+   ]
+  },
+  {
+   "name": "Rita Shah",
+   "slug": "stark",
+   "customer": "Stark Freight",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Rita Shah",
+     "current_title": "Travel Coordinator",
+     "current_company_name": "Tony Holdings",
+     "current_company_website": "tonyholdings.com",
+     "email_domain": "starkfreight.com",
+     "experience": [
+      {
+       "company": "Tony Holdings",
+       "website": "tonyholdings.com",
+       "start": "2023-11-01",
+       "end": null
+      },
+      {
+       "company": "Stark Freight",
+       "website": "starkfreight.com",
+       "start": "2017-09-01",
+       "end": "2023-11-01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Zed Coe",
+   "slug": "initrode",
+   "customer": "Initrode",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Zedekiah Coehlo",
+     "current_title": "Controller",
+     "current_company_name": "Vandelay Industries",
+     "experience": []
+    }
+   ]
+  },
+  {
+   "name": "Max Hale",
+   "slug": "acme",
+   "customer": "Acme Robotics",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Max Hale",
+     "current_title": "VP Sales",
+     "current_company_name": "Contoso Systems",
+     "current_company_website": "contoso.com",
+     "employee_count_range": "1001 to 5000",
+     "experience": [
+      {
+       "company": "Contoso Systems",
+       "website": "contoso.com",
+       "start": "2026-09-15",
+       "end": null
+      },
+      {
+       "company": "Acme Robotics",
+       "website": "acme.com",
+       "start": "2020-01-01",
+       "end": "2026-09-01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ivy Chen",
+   "slug": "northwind",
+   "customer": "Northwind Foods",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Ivy Chen",
+     "current_title": "Travel Manager",
+     "current_company_name": "Northwind Foods",
+     "current_company_website": "northwind.com",
+     "experience": [
+      {
+       "company": "Northwind Foods",
+       "website": "northwind.com",
+       "start": "2020-02-01",
+       "end": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ben Ortiz",
+   "slug": "globex",
+   "customer": "Globex Media",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Ben Ortiz",
+     "current_title": "Director of Facilities",
+     "current_company_name": "Northwind Foods",
+     "current_company_website": "northwind.com",
+     "headline": "Director of Facilities | ex-Globex",
+     "employee_count_range": "5001 to 10000",
+     "experience": [
+      {
+       "company": "Northwind Foods",
+       "website": "northwind.com",
+       "start": "2026-09-20",
+       "end": null
+      },
+      {
+       "company": "Globex Media",
+       "website": "globex.com",
+       "start": "2018-01-01",
+       "end": "2026-09-10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Priya Nair",
+   "slug": "initech",
+   "customer": "Initech",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Priya Nair",
+     "current_title": "Advisory Board Member",
+     "current_company_name": "Corporate Travel Forum",
+     "current_company_website": "ctforum.org",
+     "headline": "Director of Business Services | Initech",
+     "experience": [
+      {
+       "company": "Corporate Travel Forum",
+       "website": "ctforum.org",
+       "start": "2024-04-01",
+       "end": null,
+       "job_type": "volunteer",
+       "is_current": true
+      },
+      {
+       "company": "Initech",
+       "website": "initech.com",
+       "start": "2022-06-01",
+       "end": null,
+       "job_type": "full-time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Grace Holt",
+   "slug": "umbrella",
+   "customer": "Umbrella Health",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Grace Holt",
+     "current_title": "Office Coordinator",
+     "current_company_name": "Umbrella Health",
+     "current_company_website": "umbrella.com",
+     "updated_at": "2024-02-10",
+     "experience": []
+    }
+   ]
+  },
+  {
+   "name": "Elena Cruz",
+   "slug": "wayne",
+   "customer": "Wayne Logistics",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Elena Cruz",
+     "current_title": "Expense Systems Lead",
+     "current_company_name": "Gotham Group",
+     "current_company_website": "gothamgroup.com",
+     "experience": [
+      {
+       "company": "Gotham Group",
+       "website": "gothamgroup.com",
+       "start": "2015-07-01",
+       "end": null
+      },
+      {
+       "company": "Wayne Logistics",
+       "website": "waynelogistics.com",
+       "start": "2015-07-01",
+       "end": "2022-12-01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hugo Lind",
+   "slug": "hooli",
+   "customer": "Hooli",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Hugo Lind",
+     "current_title": "Procurement Director",
+     "current_company_name": "Raviga",
+     "current_company_website": "raviga.com",
+     "experience": [
+      {
+       "company": "Raviga",
+       "website": "raviga.com",
+       "start": "2023-06-01",
+       "end": "2026-05-01"
+      },
+      {
+       "company": "Hooli",
+       "website": "hooli.com",
+       "start": "2018-02-01",
+       "end": "2023-05-01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Morgan Ellis",
+   "slug": "piedpiper",
+   "customer": "Pied Piper",
+   "ok": true,
+   "candidates": [
+    {
+     "full_name": "Morgan Ellis",
+     "current_title": "Accounts Payable Lead",
+     "current_company_name": "Bachmanity",
+     "current_company_website": "bachmanity.com",
+     "employee_count_range": "201 to 500",
+     "role_start_date": "2025-01-15",
+     "experience": []
+    }
+   ]
+  }
+ ]
+}

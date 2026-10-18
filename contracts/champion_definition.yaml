@@ -1,0 +1,36 @@
+# What counts as a champion: the definition is versioned here, not buried in a prompt.
+# Source of truth in production: the warehouse (customer + product history). See sql/champion_definition.sql.
+# Public demo stand-in: named people in published customer case studies, with the sentence that shows what they did.
+
+version: 1
+levels:
+  champion:
+    meaning: "Influenced the decision or owns the program. Worth a play when they move."
+    evidence_tags:
+      initiated_review: "Started the search or review for a new tool"
+      chose: "Picked, recommended, or was part of choosing the product"
+      ran_rfp: "Ran the RFP"
+      rolled_out: "Implemented, launched or onboarded it"
+      owns_program: "The text says they run, manage or oversee the program. In the public demo, a program-owner title in the evidence (head of travel, T&E lead) was also accepted; that is weaker evidence (see evidence_strength)."
+      business_case: "Ran the analysis or ROI case for switching"
+      deployed_elsewhere: "Has deployed the product at other companies before"
+  user:
+    meaning: "Used it or was quoted, but nothing shows influence. Reference value only; no play on a move."
+    evidence_tags:
+      uses: "Uses it, gives a user view"
+      quoted: "Only quoted; nothing said about their role"
+      none: "Named only"
+
+evidence_strength:
+  strong: "A verb about the decision or the program (chose, led the search, rolled out, runs the program, ran the analysis)"
+  weak: "Only a program-owner title next to a quote. Production should confirm with contact roles or admin usage (sql/champion_definition.sql)."
+
+rules:
+  - "A title alone never makes a champion: the evidence sentence decides, and title-only ownership is marked weak."
+  - "Every champion row carries one verbatim evidence sentence and its source link."
+  - "Someone who only sat on a call is a user, not a champion (production: require usage or decision evidence)."
+
+production_signals:   # what the warehouse version adds on top of the public stand-in
+  - "Opportunity contact role = decision maker / economic buyer / champion on a closed-won deal"
+  - "Product usage: admin seat or active usage in the last N days (exclude test and internal workspaces)"
+  - "Call evidence: spoke positively on a recorded call (with a link to the moment)"

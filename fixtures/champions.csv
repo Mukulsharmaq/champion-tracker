@@ -1,0 +1,15 @@
+Slug,Story URL,Customer,Name,First,Last,Title on page,Employer on page,Action tag,Evidence (verbatim),Exclude reason
+acme,https://example.com/case-study/acme,Acme Robotics,Dana Reyes,Dana,Reyes,Head of Travel,Acme Robotics,owns_program,"Dana Reyes, head of travel, runs the program across 14 offices.",
+northwind,https://example.com/case-study/northwind,Northwind Foods,Leo Park,Leo,Park,Director of Spend Management,Northwind Foods,owns_program,"Leo Park manages travel and card spend across nine countries.",
+globex,https://example.com/case-study/globex,Globex Media,Sam Lee,Sam,Lee,VP Finance,Globex Media,chose,"Sam Lee led the evaluation and chose the platform.",
+initech,https://example.com/case-study/initech,Initech,Priya Nair,Priya,Nair,Director of Business Services,Initech,owns_program,"Priya Nair oversees business services, including travel and expense.",
+umbrella,https://example.com/case-study/umbrella,Umbrella Health,Grace Holt,Grace,Holt,Head of Travel,Umbrella Health,owns_program,"Grace Holt runs the global travel program.",
+stark,https://example.com/case-study/stark,Stark Freight,Rita Shah,Rita,Shah,Travel Coordinator,Stark Freight,owns_program,"Rita Shah coordinates travel for field crews.",
+wayne,https://example.com/case-study/wayne,Wayne Logistics,Elena Cruz,Elena,Cruz,Expense Systems Lead,Wayne Logistics,owns_program,"Elena Cruz owns the expense system.",
+hooli,https://example.com/case-study/hooli,Hooli,Hugo Lind,Hugo,Lind,Procurement Director,Hooli,initiated_review,"Hugo Lind started the search for a new travel partner.",
+piedpiper,https://example.com/case-study/piedpiper,Pied Piper,Morgan Ellis,Morgan,Ellis,AP Specialist,Pied Piper,business_case,"“Our review showed 1,200 hours saved a year,” said Morgan Ellis.",
+initrode,https://example.com/case-study/initrode,Initrode,Zed Coe,Zed,Coe,Controller,Initrode,chose,"Zed Coe chose the platform after a two-month pilot.",
+acme,https://example.com/case-study/acme,Acme Robotics,Max Hale,Max,Hale,VP Sales,Acme Robotics,quoted,"“Booking is fast,” said Max Hale.",
+acme,https://example.com/case-study/acme,Acme Robotics,Pat Vendor,Pat,Vendor,Account Manager,The vendor,none,"said Pat Vendor, the vendor's account manager.",Vendor employee
+northwind,https://example.com/case-study/northwind,Northwind Foods,Ivy Chen,Ivy,Chen,Travel Manager,Northwind Foods,owns_program,"Ivy Chen manages day-to-day travel.",
+globex,https://example.com/case-study/globex,Globex Media,Ben Ortiz,Ben,Ortiz,Facilities Director,Globex Media,rolled_out,"Ben Ortiz led the rollout to all twelve offices.",

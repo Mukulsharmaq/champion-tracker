@@ -1,0 +1,109 @@
+{
+  "text": "Check before acting: Champion moved: Leo Park",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Check before acting: Champion moved: Leo Park"
+      }
+    },
+    {
+      "type": "section",
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*Who*\nLeo Park"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Now*\nVP Procurement @ Fabrikam"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Was*\nDirector of Spend Management, Northwind Foods"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Why now*\nJoined 2026-05-12 (159 days ago)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Evidence they were a champion*\n>Leo Park manages travel and card spend across nine countries.\n<https://example.com/case-study/northwind|Source>"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Play*: Champion moved: intro play\n*Account*: Not a known customer; 501 to 1000 staff; industry unknown; fabrikam.com"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "Same person: Confirmed (work history, headline) · Confirmed champion move; check: move is 159 days old (over 90). · rules v1.0"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "block_id": "champion:r_f683b4c6f611",
+      "elements": [
+        {
+          "type": "button",
+          "action_id": "accept",
+          "value": "r_f683b4c6f611",
+          "text": {
+            "type": "plain_text",
+            "text": "Work this account"
+          },
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "action_id": "snooze",
+          "value": "r_f683b4c6f611",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 30 days"
+          }
+        },
+        {
+          "type": "button",
+          "action_id": "dismiss",
+          "value": "r_f683b4c6f611",
+          "text": {
+            "type": "plain_text",
+            "text": "Dismiss"
+          }
+        },
+        {
+          "type": "button",
+          "action_id": "wrong_person",
+          "value": "r_f683b4c6f611",
+          "text": {
+            "type": "plain_text",
+            "text": "Wrong person"
+          },
+          "style": "danger"
+        },
+        {
+          "type": "button",
+          "action_id": "wrong_play",
+          "value": "r_f683b4c6f611",
+          "text": {
+            "type": "plain_text",
+            "text": "Wrong play"
+          }
+        }
+      ]
+    }
+  ]
+}
